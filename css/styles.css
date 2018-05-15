@@ -1,6 +1,6 @@
 /* global helper class */
 p{
-
+  font-family: 'IM fell english sc', sans-serif;
 }
 
 /* begin navbar */
@@ -75,18 +75,19 @@ p{
   min-height: 600px;
 }
 #skills h1{
-  color: #fff;
+  color: #000;
+    font-family: 'Satisfy', cursive;
 }
 #skills a{
-  color: #F8512F;
-  font-family: 'Raleway', sans-serif;
+  color: #3D382B;
+  font-family: 'IM fell english sc', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
 #skills .tab-pane .row{
   margin: 0;
 }
-#skills .tab-content .code{
+#skills .tab-content .bgc{
   background-color: #fff;
   padding:10px;
 }
@@ -99,4 +100,7 @@ p{
 .img-thumbnail {
     display: flex;
     text-align: center;
+}
+#services p{
+  font-size: 20px;
 }
