@@ -1,3 +1,8 @@
+/* global helper class */
+p{
+
+}
+
 /* begin navbar */
 .navbar-default{
   background-color: transparent;
@@ -44,13 +49,13 @@
 }
 .it-me{
   width: 400px;
-  position: absolute;
   height:30em;
   padding: 0;
   justify-content: flex-start;
+
 }
 .about-me{
-  position: relative;
+  border-bottom: 2px solid #04005E;
   font-family: 'Satisfy', cursive;
   text-align: center;
   font-size: 60px;
@@ -64,24 +69,34 @@
 /* end about me */
 
 /* begin skills */
-#menu{
-  background-image: url('../img/henrik-donnestad-469635-unsplash.jpg');
+#skills{
+  background-image: url('../img/tim-bish-584508-unsplash.jpg');
   background-size: cover;
   min-height: 600px;
 }
-#menu h1{
+#skills h1{
   color: #fff;
 }
-#menu a{
+#skills a{
   color: #F8512F;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
-#menu .tab-pane .row{
+#skills .tab-pane .row{
   margin: 0;
 }
-#menu .tab-content .food{
+#skills .tab-content .code{
   background-color: #fff;
   padding:10px;
+}
+.html5-logo{
+  height: 17em;
+}
+.css3-logo{
+    height: 17em;
+}
+.img-thumbnail {
+    display: flex;
+    text-align: center;
 }
