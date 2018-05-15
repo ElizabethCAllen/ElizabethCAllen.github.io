@@ -1,0 +1,87 @@
+/* begin navbar */
+.navbar-default{
+  background-color: transparent;
+  border-color: transparent;
+  font-family: 'IM fell english sc', sans-serif;
+}
+.logo-img{
+  height: 40px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  color:#FFF;
+  background-color: rgba(17,17,17,.5);
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  color: #004800;
+}
+.navbar-default .navbar-nav>li>a{
+  color:black;
+  text-shadow: 1px 1px 2px #0a0a0a;
+  border-radius: 10px;
+  font-size: 18px;
+}
+/* end navbar */
+/* begin jumbotron */
+.jumbotron{
+  background-size:
+  height: 15em;
+  font-family: 'IM fell english sc', sans-serif;
+  text-align: center;
+  background-image: url('../img/rawpixel-557126-unsplash.jpg');
+  background-size: cover;
+  color: black;
+  background-position: right;
+}
+.header-text{
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+/* end jumbotron */
+/* start about-me */
+#about_me .col-md-4{
+  padding: 0;
+  height: 491px;
+}
+.it-me{
+  width: 400px;
+  position: absolute;
+  height:30em;
+  padding: 0;
+  justify-content: flex-start;
+}
+.about-me{
+  position: relative;
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+  font-size: 60px;
+  color: #04005E;
+}
+.about-text{
+  font-family: 'IM fell english sc', sans-serif;
+  font-size: 2em;
+  text-align:justify;
+}
+/* end about me */
+
+/* begin skills */
+#menu{
+  background-image: url('../img/henrik-donnestad-469635-unsplash.jpg');
+  background-size: cover;
+  min-height: 600px;
+}
+#menu h1{
+  color: #fff;
+}
+#menu a{
+  color: #F8512F;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#menu .tab-pane .row{
+  margin: 0;
+}
+#menu .tab-content .food{
+  background-color: #fff;
+  padding:10px;
+}
