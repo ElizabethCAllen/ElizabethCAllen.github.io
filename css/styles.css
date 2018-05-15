@@ -1,3 +1,8 @@
+/* global helper class */
+p{
+  font-family: 'IM fell english sc', sans-serif;
+}
+
 /* begin navbar */
 .navbar-default{
   background-color: transparent;
@@ -44,13 +49,13 @@
 }
 .it-me{
   width: 400px;
-  position: absolute;
   height:30em;
   padding: 0;
   justify-content: flex-start;
+
 }
 .about-me{
-  position: relative;
+  border-bottom: 2px solid #04005E;
   font-family: 'Satisfy', cursive;
   text-align: center;
   font-size: 60px;
@@ -64,24 +69,40 @@
 /* end about me */
 
 /* begin skills */
-#menu{
-  background-image: url('../img/henrik-donnestad-469635-unsplash.jpg');
+#skills{
+  background-image: url('../img/tim-bish-584508-unsplash.jpg');
   background-size: cover;
   min-height: 600px;
 }
-#menu h1{
-  color: #fff;
+#skills h1{
+  color: #000;
+    font-family: 'Satisfy', cursive;
 }
-#menu a{
-  color: #F8512F;
-  font-family: 'Raleway', sans-serif;
+#skills h3{
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+}
+#skills a{
+  color: #3D382B;
+  font-family: 'IM fell english sc', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
-#menu .tab-pane .row{
+#skills .tab-pane .row{
   margin: 0;
 }
-#menu .tab-content .food{
+#skills .tab-content .bgc{
   background-color: #fff;
   padding:10px;
+}
+
+.bsl{
+  height: 348px;
+}
+.img-thumbnail {
+    display: flex;
+    text-align: center;
+}
+#services p{
+  font-size: 20px;
 }

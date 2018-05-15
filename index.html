@@ -31,10 +31,9 @@
     	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       	<ul class="nav navbar-nav navbar-right">
 					<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-					<li><a href="#">About Me</a></li>
-					<li><a href="#">Programming Skills</a></li>
-          <li><a href="#">Previous Works</a></li>
-					<li><a href="#">Other Skills</a></li>
+					<li><a href="#about_me">About Me</a></li>
+					<li><a href="#skills"> Skills</a></li>
+          <li><a href="#">Works</a></li>
           <li><a href="#">Contact Me</a></li>
     	  </ul>
   	  </div><!-- /.navbar-collapse -->
@@ -53,129 +52,119 @@
     <div class="row">
       <div class="col-md-4">
         <img src="img/it-me.jpg" alt="my dumb face" class="it-me float-left">
-        <h3 class="about-me">
-          About me
-        </h3>
       </div>
       <div class="col-md-8 about-text">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit error, iure possimus repudiandae cum id eos ea veritatis tenetur, ducimus velit repellat illum voluptate necessitatibus facere dolores excepturi. Alias omnis libero praesentium, dolor quam blanditiis voluptates totam quasi possimus saepe debitis culpa accusamus voluptatem, vitae magnam? Nulla similique, quaerat doloribus delectus in nobis, nostrum porro cupiditate omnis tempora soluta placeat neque qui voluptatum est architecto quis quisquam modi quo corrupti?</p>
+        <h3 class="about-me">
+          Biography
+        </h3>
+        <p></p>
       </div>
       </div>
     </div>
 <!-- end about me -->
 <!-- begin skills -->
-<div class="container-fluid" id="menu">
+<div class="container-fluid" id="skills">
   <div class="container">
     <div class="row text-center">
       <div class="col-md-12">
-        <h1>Menu</h1>
+        <h1>Skills</h1>
       </div>
     </div>
-    <div class="row menu-tabs">
+    <div class="row skills-tabs">
       <div class="col-md-12">
         <!-- Nav tabs: where you click-->
         <ul class="nav nav-tabs nav-justified" role="tablist">
-          <li role="presentation" class="active"><a href="#appetizer" aria-controls="appetizer" role="tab" data-toggle="tab">Appetizer</a></li>
-          <li role="presentation"><a href="#lunch" aria-controls="lunch" role="tab" data-toggle="tab">Lunch</a></li>
-          <li role="presentation"><a href="#dinner" aria-controls="dinner" role="tab" data-toggle="tab">Dinner</a></li>
-          <li role="presentation"><a href="#dessert" aria-controls="dessert" role="tab" data-toggle="tab">Dessert</a></li>
+          <li role="presentation" class="active"><a href="#services" aria-controls="services" role="tab" data-toggle="tab">Services</a></li>
+          <li role="presentation"><a href="#art" aria-controls="Art" role="tab" data-toggle="tab">Art</a></li>
+          <li role="presentation"><a href="#crafts" aria-controls="crafts" role="tab" data-toggle="tab">Crafts</a></li>
+          <li role="presentation"><a href="#digital" aria-controls="Digital" role="tab" data-toggle="tab">Digital</a></li>
         </ul>
 
         <!-- Tab panes: where the content lives-->
         <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="appetizer">
-            <div class="row food">
-              <div class="col-md-3">
-                <img src="img/dip.jpg" alt="dip" class="img-responsive img-thumbnail">
-                <h3>Appetizer 1</h3>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, voluptatem, id. Labore, quibusdam vero debitis repellendus nemo quo omnis dicta.</p>
+          <div role="tabpanel" class="tab-pane active" id="services">
+            <div class="row bgc">
+              <div class="col-md-4">
+                <img src="img/html5logo.png" alt="html5 logo" class="img-responsive img-thumbnail html5-logo">
+                <h3 class="text-center">HTML 5</h3>
+                <p class="text-justify">Which stands for hypertext markup language revision five. HTML5 is markup language for the structure and presentation of internet contents</p>
               </div>
-              <div class="col-md-3">
-                <img src="img/eggplant.jpg" alt="eggplant" class="img-responsive img-thumbnail">
-                <h3>Appetizer 2</h3>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, voluptatem, id. Labore, quibusdam vero debitis repellendus nemo quo omnis dicta.</p>
+              <div class="col-md-4">
+                <img src="img/CSS3logo.png" alt="css 3 logo" class="img-responsive img-thumbnail css3-logo text-center">
+                <h3 class="text-center">CSS 3</h3>
+                <p class="text-justify">CSS is an acronym for cascading style sheets, which is a style sheet language used for describing the presentation of a document written in a markup language like HTML.</p>
               </div>
-              <div class="col-md-3">
-                <img src="img/meat.jpg" alt="meat" class="img-responsive img-thumbnail">
-                <h3>Appetizer 3</h3>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, voluptatem, id. Labore, quibusdam vero debitis repellendus nemo quo omnis dicta.</p>
-              </div>
-              <div class="col-md-3">
-                <img src="img/bruschetta.jpg" alt="bruschetta" class="img-responsive img-thumbnail">
-                <h3>Appetizer 4</h3>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, voluptatem, id. Labore, quibusdam vero debitis repellendus nemo quo omnis dicta.</p>
+              <div class="col-md-4">
+                <img src="img/bootstraplogo1.png" alt="bootstraplogo" class="img-responsive img-thumbnail bsl">
+                <h3 class="text-center">Bootstrap</h3>
+                <p class="text-justify">A type of framework that creates responsive web content and scales it to fit across different types of devices.</p>
               </div>
             </div>
           </div>
-          <div role="tabpanel" class="tab-pane" id="lunch">
-            <div class="row food">
+          <div role="tabpanel" class="tab-pane" id="art">
+            <div class="row bgc">
               <div class="col-md-3">
-                <img src="img/lunch1.jpg" alt="lunch1" class="img-responsive img-thumbnail">
-                <h3>Lunch 1</h3>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem explicabo sint voluptatibus provident reprehenderit ullam adipisci voluptates dolorem commodi fugiat?</p>
+                <img src="img/charcoal-planes.png" alt="classical art charcoal drawing of a lady" class="img-responsive img-thumbnail">
+                <h3>Charcoal</h3>
+                <p class="text-justify">I completed college level figure drawing courses, where I learned to used many different types of charcoal, different art styles, and how to appropriately proportion the human figure. </p>
               </div>
               <div class="col-md-3">
-                <img src="img/lunch2.jpg" alt="lunch2" class="img-responsive img-thumbnail">
-                <h3>Lunch 2</h3>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit iste, id libero dolorem sed voluptate, numquam facilis odit enim similique.</p>
+                <img src="img/ink-woman.png" alt="Woman in Ink" class="img-responsive img-thumbnail">
+                <h3>Ink</h3>
+                <p class="text-justify">In the same college course I learned how to use India inks and how to treat the paper to prevent the edges from curling. I also took print making classes, I i also know how to use a printing press, and various methods of print making. </p>
               </div>
               <div class="col-md-3">
-                <img src="img/lunch3.jpg" alt="lunch3" class="img-responsive img-thumbnail">
-                <h3>Lunch 3</h3>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque possimus assumenda dolorum. Voluptates culpa pariatur maxime eos accusamus, assumenda doloribus!</p>
+                <img src="img/evil-lady.png" alt="lunch3" class="img-responsive img-thumbnail">
+                <h3>Pen and Markers</h3>
+                <p class="text-justify">After taking some many art classes I had a desire to expand upon the mediums I was familiar with. I have had experience with markers before, but I wanted to know how to blend them, and make them flow. </p>
               </div>
               <div class="col-md-3">
-                <img src="img/lunch4.jpg" alt="lunch4" class="img-responsive img-thumbnail">
-                <h3>Lunch 4</h3>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum deleniti nesciunt debitis quidem sunt omnis commodi nulla sint officia suscipit!</p>
+                <img src="img/pencil-lady.png" alt="pencil lady" class="img-responsive img-thumbnail">
+                <h3>Pencil</h3>
+                <p class="text-justify">Pencils, when compared to the fluidity of characoal, are rather rigid and stiff. So making them blend, and not smudge was difficult for me, but when I got comfortable with I began to love pencil drawings.</p>
               </div>
             </div>
           </div>
-          <div role="tabpanel" class="tab-pane" id="dinner">
-            <div class="row food">
+          <div role="tabpanel" class="tab-pane" id="crafts">
+            <div class="row bgc">
               <div class="col-md-3">
-                <img src="img/dinner1.jpg" alt="dinner1" class="img-responsive img-thumbnail">
-                <h3>Dinner 1</h3>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem explicabo sint voluptatibus provident reprehenderit ullam adipisci voluptates dolorem commodi fugiat?</p>
+                <img src="img/pottery1.png" alt="dinner1" class="img-responsive img-thumbnail">
+                <h3>Pottery</h3>
+                <p class="text-justify">I took my first ceramics class in high school, and I was instantly enamored with this medium. I loved everything from the smell of the clay, to the natural messy demeanor of the the process, and the endless posssiblities of creation it offered me. I pursued pottery even into college, taking several courses that included ceramics in its criteria. </p>
               </div>
               <div class="col-md-3">
-                <img src="img/dinner2.jpg" alt="dinner2" class="img-responsive img-thumbnail">
-                <h3>Dinner 2</h3>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem explicabo sint voluptatibus provident reprehenderit ullam adipisci voluptates dolorem commodi fugiat?</p>
+                <img src="img/hufflepuff.png" alt="dinner2" class="img-responsive img-thumbnail">
+                <h3>Sculpture</h3>
+                <p class="text-justify">I have always found scultpures to be interesting, but when I actually started to create my own I grew a new admiration for scultpors. The thought process, patiences, planning, and skill needed to get the former onto your medium that you only have one go at amazed me. I worked with plaster, wood, clay, glass, wax, and bronze. </p>
               </div>
               <div class="col-md-3">
-                <img src="img/dinner3.jpg" alt="dinner3" class="img-responsive img-thumbnail">
-                <h3>Dinner 3</h3>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem explicabo sint voluptatibus provident reprehenderit ullam adipisci voluptates dolorem commodi fugiat?</p>
+                <img src="img/basket.png" alt="dinner3" class="img-responsive img-thumbnail">
+                <h3>Basket Weaving</h3>
+                <p class="text-justify">Basket weaving is a relatively new medium for me. Before I only knew how to weave simple wreathes, and link them together into a chain. Basket weaving in constrast is much more difficult. The hardest part is keeping track and maintaining the basic structure of the piece. It has so many diffent branhes that move so easily that one wrong move can knock the support frame out of place, or cause the side to unwind and loosen.</p>
               </div>
               <div class="col-md-3">
-                <img src="img/dinner4.jpg" alt="dinner4" class="img-responsive img-thumbnail">
-                <h3>Dinner 4</h3>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem explicabo sint voluptatibus provident reprehenderit ullam adipisci voluptates dolorem commodi fugiat?</p>
+                <img src="img/red-hot.png" alt="dinner4" class="img-responsive img-thumbnail">
+                <h3>Metal Work</h3>
+                <p class="text-justify">I have done only a fewthings with metal, some on my own, and some in classes. I have done black smithing, jewlery making, soddering, and bronze casting, all of which I enjoyed greatly. The out comes of all the projects were even more rewarding knowing how much I labored, sweat, and struggled to create each one.</p>
               </div>
           </div>
         </div>
-          <div role="tabpanel" class="tab-pane" id="dessert">
-            <div class="row food">
-              <div class="col-md-3">
-                <img src="img/dessert1.jpg" alt="dessert 1" class="img-responsive img-thumbnail">
-                <h3>Dessert 1</h3>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio impedit cupiditate aspernatur, quia temporibus facere doloremque labore! Necessitatibus, repudiandae deserunt?</p>
+          <div role="tabpanel" class="tab-pane" id="digital">
+            <div class="row bgc">
+              <div class="col-md-4">
+                <img src="img/begging-aug1.png" alt="dessert 1" class="img-responsive img-thumbnail">
+                <h3>Photography</h3>
+                <p class="text-justify">I have always loved photography, so in high school I took a class on it. I found that I enjoyed both traditional and digital photography. Being in the dark room with it's cool quiet acidic smell became rather relaxing for me. Painting on hand developed pictures became my favorite, and the one I dedicated themost time to during that time.</p>
               </div>
-              <div class="col-md-3">
-                <img src="img/dessert2.jpg" alt="dessert 2" class="img-responsive img-thumbnail">
-                <h3>Dessert 2</h3>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam nisi debitis nam culpa dicta velit nulla ut et soluta, numquam?</p>
+              <div class="col-md-4">
+                <img src="img/photo-edit-poppies1.png" alt="dessert 2" class="img-responsive img-thumbnail">
+                <h3>Photo Editing</h3>
+                <p class="text-justify">I got my first experience with photoshop and Light Room in high school. There was so much I could do with it, and I established the basic skills for editing, and experimenting with the programs was fantastic.</p>
               </div>
-              <div class="col-md-3">
-                <img src="img/dessert3.jpg" alt="dessert3" class="img-responsive img-thumbnail">
-                <h3>Dessert 3</h3>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta quia, distinctio mollitia molestias natus unde dolores magni similique aliquid eum!</p>
-              </div>
-              <div class="col-md-3">
-                <img src="img/dessert4.jpg" alt="dessert4" class="img-responsive img-thumbnail">
-                <h3>Dessert 4</h3>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia saepe laboriosam reprehenderit eaque accusantium recusandae, doloremque enim eveniet debitis sequi!</p>
+              <div class="col-md-4">
+                <img src="img/digital-antaomy1.png" alt="dessert3" class="img-responsive img-thumbnail">
+                <h3>Digital Art</h3>
+                <p class="text-justify">Drawing with a computer offers color options, textures, and more brushes than any art store could ever dream of, not to mention it's a lot easier to carry around on a daily basis. It offers painting, sketching, ink, or line art abilites to an artist. I wish to pursue digital art more, I have so few options available to me at the moment for this.  </p>
               </div>
             </div>
           </div>
@@ -184,8 +173,8 @@
     </div>
   </div>
 </div>
-
 <!-- end skills -->
+
   </div>
 <!-- javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
