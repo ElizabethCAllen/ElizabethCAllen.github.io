@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> My Portfolio</title>
     <!-- put a title in numbnuts -->
+    <link rel="icon" type="image/gif" href="img/logo-fav.png">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Satisfy" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body>
     <!-- begin navbar -->
@@ -33,8 +35,8 @@
 					<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
 					<li><a href="#about_me">About Me</a></li>
 					<li><a href="#skills"> Skills</a></li>
-          <li><a href="#">Works</a></li>
-          <li><a href="#">Contact Me</a></li>
+          <li><a href="#portfolio">Works</a></li>
+          <li><a href="#contact">Contact Me</a></li>
     	  </ul>
   	  </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -174,8 +176,134 @@
   </div>
 </div>
 <!-- end skills -->
-
+<!-- begin gallery -->
+<section class="p-0" id="portfolio">
+  <div class="container-fluid p-0">
+    <div class="row no-gutters popup-gallery">
+      <div class="col-lg-4 col-sm-6">
+        <a class="portfolio-box" href="https://elizabethcallen.github.io/pet-store/">
+          <img class="img-fluid" src="img/.png" alt="">
+          <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+              <div class="project-category text-faded">
+                Boot Camp One
+              </div>
+              <div class="project-name">
+                Final Project
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <a class="portfolio-box" href="https://elizabethcallen.github.io/pet-store/">
+          <img class="img-fluid" src="img/petstore.png" alt="">
+          <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+              <div class="project-category text-faded">
+                Moblie Friendly
+              </div>
+              <div class="project-name">
+                Pet Store
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <a class="portfolio-box rest" href="img/resturante-webpage.png">
+          <img class="img-fluid text-center" src="img/resturant3.png" alt="">
+          <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+              <div class="project-category text-faded">
+                Mobile Friendly
+              </div>
+              <div class="project-name">
+                Restaurant
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
   </div>
+</section>
+<!-- end gallery -->
+<!-- begin contact form -->
+<div class="container-fluid" id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="text-uppercase">Contact Me</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-5">
+							<form>
+								<div class="form-group">
+							    <label for="exampleInputName">Name <span>*</span></label>
+							    <input type="text" class="form-control" id="exampleInputName" placeholder="Name">
+							  </div>
+								<div class="form-group">
+							    <label for="exampleInputEmail1">Email <span>*</span></label>
+							    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+							  </div>
+							  <div class="form-group">
+							    <label for="exampleInputSubject">Subject <span>*</span></label>
+							    <input type="text" class="form-control" id="exampleInputSubject" placeholder="Subject">
+							  </div>
+							  <div class="form-group">
+							    <label for="exampleInputMessage">Message <span>*</span></label>
+							    <textarea class="form-control" name="name" rows="6"></textarea>
+							  </div>
+							  <div class="checkbox">
+							    <label>
+							      <input type="checkbox"> I'm not a robot.
+							    </label>
+							  </div>
+							  <button type="submit" class="btn btn-default center-block">Send Message</button>
+								<p class="text-center" id="fine-print">All fields marked
+								<span>*</span>are mandatory.</p>
+							</form>
+					</div>
+  <!-- end contact form -->
+  <!-- begin social media icons -->
+          <div class="col-md-2 i-container clearfix">
+              <a href="https://www.instagram.com/the_cobalt_hornet/" class="icon insta">  <i class="fab fa-instagram"></i></a>
+              <br>
+              <a class="icon gh" href="https://github.com/ElizabethCAllen"><i class="fab fa-github" target="_blank"></i></a>
+              <br>
+              <a class="icon fcb " href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+              <br>
+              <a class="icon linkedin " href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <br>
+              <a class="icon tumblr " href="#" target="_blank"><i class="fab fa-tumblr"></i></a>
+        </div>
+        <div class="col-md-5 ">
+          <address>
+							<a class="name" href="#">
+								<stong>Bitwise Industries</strong>
+								<br>
+							</a>
+							<a href="#" class="street">700 Van Ness Ave,
+								<br>
+							</a>
+							<a href="#" class="city">
+								Fresno, CA 93721
+								<br>
+							</a>
+							<a href="#" class="phone">
+								P. (559)355-3865
+							</a>
+					</address>
+          <div class="row map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.604240146298!2d-119.78796568471212!3d36.732064979962736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809460a5cfdf4b6b%3A0xab092ce50c284a0a!2sBitwise+Industries!5e0!3m2!1sen!2sus!4v1526506710356"  width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
 <!-- javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
