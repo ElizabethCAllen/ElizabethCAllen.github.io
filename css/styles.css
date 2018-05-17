@@ -230,14 +230,14 @@ p{
   text-decoration: none;
   font-family: 'Satisfy', cursive;
   font-weight: 700;
-  font-size: 3em;
+  font-size: 2em;
   padding-left: 4em;
 }
 .name:hover,.city:hover,
 .phone:hover{
   color: gold;
   text-decoration: none;
-  te
+
 
 }
 .street,
