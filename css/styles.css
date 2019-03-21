@@ -24,8 +24,7 @@ p{
   border-radius: 10px;
   font-size: 18px;
 }
-/* end navbar */
-/* begin jumbotron */
+
 .jumbotron{
   background-size:
   height: 15em;
@@ -40,8 +39,7 @@ p{
   padding-top: 2em;
   padding-bottom: 3em;
 }
-/* end jumbotron */
-/* start about-me */
+
 #about_me .col-md-4{
   padding: 0;
   height: 491px;
