@@ -63,9 +63,7 @@ p{
   font-size: 2em;
   text-align:justify;
 }
-/* end about me */
 
-/* begin skills */
 #skills{
   background-image: url('../img/tim-bish-584508-unsplash.jpg');
   background-size: cover;
@@ -109,8 +107,7 @@ p{
 #services p{
   font-size: 20px;
 }
-/* end skills */
-/* begin gallery */
+
 #portfolio .container-fluid{
   margin-top: 3em;
   margin-bottom: 3em;
