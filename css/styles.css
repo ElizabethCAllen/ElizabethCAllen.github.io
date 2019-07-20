@@ -1,2 +1,38 @@
-font-family: 'Josefin Slab', serif;
-font-family: 'Special Elite', cursive;
+/* global sytles */
+
+.josefinSlab{
+    font-family: 'Josefin Slab', serif;
+}
+.specialElite{
+    font-family: 'Special Elite', cursive;
+}
+.fernGreen{
+    color: #527552;
+}
+.charcoalBlue{
+    color: #3b4752;
+}
+.cyberGrape{
+    color: #684b7a;
+}
+.trolleyGray{
+    color: #7a7e88;
+}
+.raisinBlack{
+    color: #232427;
+}
+.fernGreenBackGround{
+    background-color: #527552;
+}
+.charcoalBlueBackGround{
+    background-color: #3b4752;
+}
+.cyberGrapeBackGround{
+    background-color: #684b7a;
+}
+.trolleyGrayBackGround{
+    background-color: #7a7e88;
+}
+.raisinBlackBackGround{
+    background-color: #232427;
+}
