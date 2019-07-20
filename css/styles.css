@@ -1,0 +1,15 @@
+
+    @font-face {
+        font-family: 'irklingregular';
+        src: url('css/fonts/irkling-regular-webfont.woff2') format('woff2'),
+             url('css/fonts/irkling-regular-webfont.woff') format('woff'),
+             url("css/fonts/irkling-regular.otf") format("opentype");
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+     h1 {
+     font-family: 'irkling-regular', Arial, sans-serif;
+        font-weight:normal;
+        font-style:normal;
+        }

@@ -1,0 +1,29 @@
+/* @font-face {
+    font-family: "irkling-regular";
+    src: url("../../../../desktop/webfontkit-20190719-180440/irkling-regular.woff") format("woff"),
+    src: url("../../../irkling-regular.otf") format("opentype"),
+
+    } */
+
+    @font-face {
+        font-family: 'irklingregular';
+        src: url('css/fonts/irkling-regular-webfont.woff2') format('woff2'),
+             url('css/fonts/irkling-regular-webfont.woff') format('woff'),
+             url("css/fonts/irkling-regular.otf") format("opentype");
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+    /* @font-face {
+        font-family: "irkling-regular";
+        src: url("css/fonts/Harabara.eot");
+        src: 
+        url("css/fonts/Harabara.woff") format("woff"),
+        url("css/fonts/Harabara.otf") format("opentype"),
+        url("css/fonts/Harabara.svg#filename") format("svg");
+        } */
+    h1 {
+        font-family: 'irkling-regular', Arial, sans-serif;
+        font-weight:normal;
+        font-style:normal;
+        }
