@@ -13,25 +13,50 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body>
-    <!-- NOTES TO SELF: using camel casing for custom classes and ids -->
+    <!-- NOTES TO SELF: using camel casing for custom classes and ids. Also I am starting with the smallest mobile size, and then growing larger-->
     
-    <!-- begin navbar -->
-    <div class="pos-f-t">
+    <!-- ----- START NAVBAR ----- -->
+    <!-- <div class="pos-f-t">
       <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <h5 class="text-white h4">Collapsed content</h5>
-          <span class="text-muted">Toggleable via the navbar brand.</span>
+        <div class="bg-dark p-4 ">
+            <button type="button" class="btn btn-primary navBarMobileButtons" href="#aboutMe"> About me</button> 
+            <button type="button" class="btn btn-primary navBarMobileButtons" href="#languages"> Languages</button> 
+            <button type="button" class="btn btn-primary navBarMobileButtons" href="#myWorks"> Works</button> 
+            <button type="button" class="btn btn-primary navBarMobileButtons" href="#webAccessiblity">Web Accessibility</button> 
+            <button type="button" class="btn btn-primary navBarMobileButtons" href="#contactMe"> Contact me </button> 
         </div>
       </div>
-      <nav class="navbar fixed-top navbar-dark bg-dark">
+
+      <nav class="navbar  fixed-top navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       </nav>
-    </div>
-    
+    </div> -->
 
-    <!-- end navbar -->
+    <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class=" p-4">
+              <span class="text-muted">
+                <button type="button" class="btn btn-primary navBarMobileButtons" href="#aboutMe"> About me</button> 
+                <button type="button" class="btn btn-primary navBarMobileButtons" href="#languages"> Languages</button> 
+                <button type="button" class="btn btn-primary navBarMobileButtons" href="#myWorks"> Works</button> 
+                <button type="button" class="btn btn-primary navBarMobileButtons" href="#webAccessiblity">Web Accessibility</button> 
+                <button type="button" class="btn btn-primary navBarMobileButtons" href="#contactMe"> Contact me </button> 
+            </span>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+ 
+          </button>
+        </nav>
+      </div>
+
+    <!-- ----- END NAVBAR ----- -->
+
+    <!-- ----- START JUMBOTRON ----- -->
 
     <!-- icon for adjusting the colors and font for accessability -->
     <i class="fas fa-adjust"></i>

@@ -52,6 +52,9 @@
 
 /* ----- START NAVBAR ----- */
 
+.navBarMobileButtons{
+    height: inherit;
+}
 /* ----- END NAVBAR ----- */
 
 
