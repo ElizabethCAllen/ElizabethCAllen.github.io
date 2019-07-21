@@ -1,38 +1,99 @@
-/* global sytles */
-
+/* ----- START GLOBAL STYLES ----- */
 .josefinSlab{
     font-family: 'Josefin Slab', serif;
 }
+
 .specialElite{
     font-family: 'Special Elite', cursive;
 }
-.fernGreen{
+
+.fernGreenText{
     color: #527552;
 }
-.charcoalBlue{
+
+.charcoalBlueText{
     color: #3b4752;
 }
-.cyberGrape{
+
+.cyberGrapeText{
     color: #684b7a;
 }
-.trolleyGray{
+
+.trolleyGrayText{
     color: #7a7e88;
 }
-.raisinBlack{
+
+.raisinBlackText{
     color: #232427;
 }
+
 .fernGreenBackGround{
     background-color: #527552;
 }
+
 .charcoalBlueBackGround{
     background-color: #3b4752;
 }
+
 .cyberGrapeBackGround{
     background-color: #684b7a;
 }
+
 .trolleyGrayBackGround{
     background-color: #7a7e88;
 }
+
 .raisinBlackBackGround{
     background-color: #232427;
 }
+/* ----- END GLOBAL STYLES ----- */
+
+
+
+/* ----- START NAVBAR ----- */
+
+/* ----- END NAVBAR ----- */
+
+
+
+/* ----- START HERO ----- */
+
+/* ----- END HERO ----- */
+
+
+
+/* ----- START ABOUT ME ----- */
+
+/* ----- END ABOUT ME ----- */
+
+
+
+/* ----- START LANGUAGES ----- */
+
+/* ----- END LANGUAGES ----- */
+
+
+
+/* ----- START WORKS ----- */
+
+/* ----- END WORKS ----- */
+
+
+
+/* ----- START WEB ACCESSABILITY ----- */
+
+/* ----- END WEB ACCESSABILITY ----- */
+
+
+
+/* ----- START fOOTER ----- */
+
+/* ----- END FOOTER ----- */
+
+
+
+/* ----- START MEDIA QUERIES ----- */
+
+/* ----- END MEDIA QUERIES ----- */
+
+
