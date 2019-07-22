@@ -49,11 +49,11 @@
 /* ----- END GLOBAL STYLES ----- */
 
 
-
 /* ----- START NAVBAR ----- */
 
 .navBarMobileButtons{
     height: inherit;
+    margin: 5px;
 }
 /* ----- END NAVBAR ----- */
 
