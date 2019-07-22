@@ -10,39 +10,35 @@
 .fernGreenText{
     color: #527552;
 }
+.fernGreenBackGround{
+    background-color: #527552;
+}
 
 .charcoalBlueText{
     color: #3b4752;
+}
+.charcoalBlueBackGround{
+    background-color: #3b4752;
 }
 
 .cyberGrapeText{
     color: #684b7a;
 }
-
-.trolleyGrayText{
-    color: #7a7e88;
-}
-
-.raisinBlackText{
-    color: #232427;
-}
-
-.fernGreenBackGround{
-    background-color: #527552;
-}
-
-.charcoalBlueBackGround{
-    background-color: #3b4752;
-}
-
 .cyberGrapeBackGround{
     background-color: #684b7a;
 }
 
+.trolleyGrayText{
+    color: #7a7e88;
+}
 .trolleyGrayBackGround{
     background-color: #7a7e88;
 }
 
+
+.raisinBlackText{
+    color: #232427;
+}
 .raisinBlackBackGround{
     background-color: #232427;
 }
@@ -59,9 +55,12 @@
 
 
 
-/* ----- START HERO ----- */
-
-/* ----- END HERO ----- */
+/* ----- START JUMBOTRON----- */
+.jumbotronBackground{
+    background-image: url("../imgs/accessibility/rawpixel-557126-unsplash.jpg");
+    background-size: cover;
+}
+/* ----- END JUMBOTRON ----- */
 
 
 
