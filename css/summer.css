@@ -32,42 +32,42 @@
 
 /* ----- START NAVBAR ----- */
 .collapseBackground{
-    background-color: #28612C;
+    background-color: #025959;
 }
 .navBarMobileButtons{
     height: inherit;
     margin: 5px;
 }
 .navbar{
-    background-color:   #28612C;
+    background-color:   #025959;
 
 }
 .navBarMobileButtons {
-    background-color:   #DBE8F5;
-    border-color:   #DBE8F5;
-    color: #265c8c;
+    background-color:   #538c30;
+    border-color:   #538c30;
+
    
 }
 .btn-primary:hover{
-    background-color: #265c8c;;
-    border-color:#265c8c;;
-    box-shadow: #265c8c;
-    color: #DBE8F5;
+    background-color: #2a4024;;
+    border-color:#2a4024;;
+    box-shadow: #2a4024;
+
 }
 /* ----- END NAVBAR ----- */
 
 /* ----- START JUMBOTRON----- */
 .jumbotronBackground{
-    background-image: url("../imgs/summer/");
+    background-image: url("../imgs/summer/pawel-czerwinski-1056851-unsplash.jpg");
     background-size: cover;
-    height:25em;
-    background-position: center bottom;
+    height:30em;
+    background-position: center center;
 }
 .myNameHeader{
-    color: #265c8c;
+    color: #080301; 
 }
 .jobTitles{
-    color: #265c8c;
+    color: #080301;
 /* ----- END JUMBOTRON ----- */
 
 
