@@ -7,50 +7,55 @@
     font-family: 'Special Elite', cursive;
 }
 
-.fernGreenText{
+.fernGreen{
     color: #527552;
 }
-.fernGreenBackGround{
-    background-color: #527552;
-}
 
-.charcoalBlueText{
+.charcoalBlue{
     color: #3b4752;
 }
-.charcoalBlueBackGround{
-    background-color: #3b4752;
-}
 
-.cyberGrapeText{
+.cyberGrape{
     color: #684b7a;
 }
-.cyberGrapeBackGround{
-    background-color: #684b7a;
-}
 
-.trolleyGrayText{
+.trolleyGray{
     color: #7a7e88;
 }
-.trolleyGrayBackGround{
-    background-color: #7a7e88;
-}
 
 
-.raisinBlackText{
+.raisinBlack{
     color: #232427;
 }
-.raisinBlackBackGround{
-    background-color: #232427;
-}
+
 /* ----- END GLOBAL STYLES ----- */
 
 
 /* ----- START NAVBAR ----- */
-
+.collapseBackground{
+    background-color: #3b4752;
+}
 .navBarMobileButtons{
     height: inherit;
     margin: 5px;
 }
+.navbar{
+    background-color:   #3b4752;
+
+}
+.navBarMobileButtons {
+    background-color:   #684b7a;
+    border-color:   #684b7a;
+
+   
+}
+.btn-primary:hover{
+    background-color: #527552;;
+    border-color:#527552;;
+    box-shadow: #527552;
+
+}
+
 /* ----- END NAVBAR ----- */
 
 
@@ -59,7 +64,14 @@
 .jumbotronBackground{
     background-image: url("../imgs/accessibility/rawpixel-557126-unsplash.jpg");
     background-size: cover;
+    height:25em;
+    background-position: center center;
 }
+.myNameHeader{
+    color: #3b4752;
+}
+.jobTitles{
+    color: #3b4752;
 /* ----- END JUMBOTRON ----- */
 
 

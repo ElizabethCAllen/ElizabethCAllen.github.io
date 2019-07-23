@@ -7,51 +7,103 @@
     font-family: 'Special Elite', cursive;
 }
 
-.raisinBlackText{
+.raisinBlack{
     color: #232427;
 }
-.raisinBlackBackGround{
-    background-color: #232427;
+
+.azureishWhite{
+    color: #DBE8F5;
 }
 
-.azureishWhiteText{
-    color: #dbe9f4;
-}
-.azureishWhiteBackground{
-    background-color: #dbe9f4;
+.bdazzledBlue{
+    color: #265c8c;
 }
 
-.bdazzledBlueText{
-    color:
-}
-.bdazzledBlueBackground{
-    background-color: 
-}
-
-.mughedGreenText{
+.mughedGreen{
     color: #28612C;
 }
-.mughedGreenBackground{
+
+.harvardCrimson{
+    color: #d60012;
+}
+
+/* ----- END GLOBAL STYLES ----- */
+
+
+/* ----- START NAVBAR ----- */
+.collapseBackground{
     background-color: #28612C;
 }
+.navBarMobileButtons{
+    height: inherit;
+    margin: 5px;
+}
+.navbar{
+    background-color:   #28612C;
 
-.harvardCrimsonText{
-    color: #
 }
-.harvardCrimsonBackground{
-    background-color: #
+.navBarMobileButtons {
+    background-color:   #DBE8F5;
+    border-color:   #DBE8F5;
+    color: #265c8c;
+   
+}
+.btn-primary:hover{
+    background-color: #265c8c;;
+    border-color:#265c8c;;
+    box-shadow: #265c8c;
+    color: #DBE8F5;
+}
+/* ----- END NAVBAR ----- */
 
-.Text{
-    color: #
-}
-.Background{
-    background-color: 
-}
 
 
-.Text{
-    color: #
+/* ----- START JUMBOTRON----- */
+.jumbotronBackground{
+    background-image: url("../imgs/winter/bryce-evans-usAIelADp1A-unsplash.jpg");
+    background-size: cover;
+    height:25em;
+    background-position: center bottom;
 }
-.Background{
-    background-color: #
+.myNameHeader{
+    color: #265c8c;
 }
+.jobTitles{
+    color: #265c8c;
+/* ----- END JUMBOTRON ----- */
+
+
+
+/* ----- START ABOUT ME ----- */
+
+/* ----- END ABOUT ME ----- */
+
+
+
+/* ----- START LANGUAGES ----- */
+
+/* ----- END LANGUAGES ----- */
+
+
+
+/* ----- START WORKS ----- */
+
+/* ----- END WORKS ----- */
+
+
+
+/* ----- START WEB ACCESSABILITY ----- */
+
+/* ----- END WEB ACCESSABILITY ----- */
+
+
+
+/* ----- START fOOTER ----- */
+
+/* ----- END FOOTER ----- */
+
+
+
+/* ----- START MEDIA QUERIES ----- */
+
+/* ----- END MEDIA QUERIES ----- */
