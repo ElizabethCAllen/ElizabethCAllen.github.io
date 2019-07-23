@@ -12,7 +12,7 @@
 }
 
 .azureishWhite{
-    color: #dbe9f4;
+    color: #DBE8F5;
 }
 
 .bdazzledBlue{
@@ -32,7 +32,7 @@
 
 /* ----- START NAVBAR ----- */
 .collapseBackground{
-    background-color: #DBE8F5;
+    background-color: #28612C;
 }
 .navBarMobileButtons{
     height: inherit;
@@ -43,14 +43,16 @@
 
 }
 .navBarMobileButtons {
-    background-color:   #28612C;
-    border-color:   #28612C;
+    background-color:   #DBE8F5;
+    border-color:   #DBE8F5;
+    color: #265c8c;
    
 }
 .btn-primary:hover{
     background-color: #265c8c;;
     border-color:#265c8c;;
-    box-shadow: #265c8c;;
+    box-shadow: #265c8c;
+    color: #DBE8F5;
 }
 /* ----- END NAVBAR ----- */
 

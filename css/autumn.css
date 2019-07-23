@@ -31,7 +31,9 @@
 
 
 /* ----- START NAVBAR ----- */
-
+.collapseBackground{
+    background-color: #ed7f1a;
+}
 .navBarMobileButtons{
     height: inherit;
     margin: 5px;
