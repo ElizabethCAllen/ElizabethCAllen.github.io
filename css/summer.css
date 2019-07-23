@@ -11,8 +11,8 @@
     color: #f2b705;
 }
 
-.blackLeatherJacket{
-    color: #2a4024;
+.deepGreen{
+    color: #064c07;
 }
 
 .maximumGreen{
@@ -32,26 +32,26 @@
 
 /* ----- START NAVBAR ----- */
 .collapseBackground{
-    background-color: #025959;
+    background-color: #064c07;
 }
 .navBarMobileButtons{
     height: inherit;
     margin: 5px;
 }
 .navbar{
-    background-color:   #025959;
+    background-color:   #064c07;
 
 }
 .navBarMobileButtons {
-    background-color:   #538c30;
-    border-color:   #538c30;
+    background-color:   #025959;
+    border-color:   #025959;
 
    
 }
 .btn-primary:hover{
-    background-color: #2a4024;;
-    border-color:#2a4024;;
-    box-shadow: #2a4024;
+    background-color: #538c30;;
+    border-color:#538c30;;
+    box-shadow: #538c30;
 
 }
 /* ----- END NAVBAR ----- */

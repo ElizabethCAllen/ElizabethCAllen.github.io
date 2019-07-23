@@ -33,27 +33,27 @@
 
 /* ----- START NAVBAR ----- */
 .collapseBackground{
-    background-color: #28612C;
+    background-color: #3b4752;
 }
 .navBarMobileButtons{
     height: inherit;
     margin: 5px;
 }
 .navbar{
-    background-color:   #28612C;
+    background-color:   #3b4752;
 
 }
 .navBarMobileButtons {
-    background-color:   #DBE8F5;
-    border-color:   #DBE8F5;
-    color: #265c8c;
+    background-color:   #684b7a;
+    border-color:   #684b7a;
+
    
 }
 .btn-primary:hover{
-    background-color: #265c8c;;
-    border-color:#265c8c;;
-    box-shadow: #265c8c;
-    color: #DBE8F5;
+    background-color: #527552;;
+    border-color:#527552;;
+    box-shadow: #527552;
+
 }
 
 /* ----- END NAVBAR ----- */
@@ -65,13 +65,13 @@
     background-image: url("../imgs/accessibility/rawpixel-557126-unsplash.jpg");
     background-size: cover;
     height:25em;
-    background-position: center bottom;
+    background-position: center center;
 }
 .myNameHeader{
-    color: #265c8c;
+    color: #3b4752;
 }
 .jobTitles{
-    color: #265c8c;
+    color: #3b4752;
 /* ----- END JUMBOTRON ----- */
 
 
