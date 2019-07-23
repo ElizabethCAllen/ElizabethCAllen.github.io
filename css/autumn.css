@@ -7,30 +7,101 @@
     font-family: 'Special Elite', cursive;
 }
 
-.Text{
-    color: #
-}
-.Background{
-    background-color: #
+.deepGreen{
+    color: #064c07;
 }
 
-.Text{
-    color: #
-}
-.Background{
-    background-color: #
+.richBlack{
+    color: #080301;
 }
 
-.Text{
-    color: #
-}
-.Background{
-    background-color: #
+.princetonOrange{
+    color: #ed7f1a;
 }
 
-.Text{
-    color: #
+.internationalOrange{
+    color: #c7110e;
 }
-.Background{
-    background-color: #
+
+.uclaGold{
+    color: #f6b30a;
 }
+
+/* ----- END GLOBAL STYLES ----- */
+
+
+/* ----- START NAVBAR ----- */
+
+.navBarMobileButtons{
+    height: inherit;
+    margin: 5px;
+}
+.navbar{
+    background-color:   #ed7f1a;
+
+}
+.navBarMobileButtons {
+    background-color: #064c07;
+    border-color: #064c07;
+    box-shadow: #ed7f1a;
+}
+.btn-primary:hover{
+    background-color: #f6b30a;
+    border-color: #f6b30a;
+    box-shadow: #ed7f1a;
+}
+
+/* ----- END NAVBAR ----- */
+
+
+
+/* ----- START JUMBOTRON----- */
+.jumbotronBackground{
+    background-image: url("../imgs/fall/jeremy-thomas-Qw2CUd_9OWo-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 25em;
+}
+.myNameHeader{
+    color: #080301;
+}
+.jobTitles{
+    color: #080301;
+}
+/* ----- END JUMBOTRON ----- */
+
+
+
+/* ----- START ABOUT ME ----- */
+
+/* ----- END ABOUT ME ----- */
+
+
+
+/* ----- START LANGUAGES ----- */
+
+/* ----- END LANGUAGES ----- */
+
+
+
+/* ----- START WORKS ----- */
+
+/* ----- END WORKS ----- */
+
+
+
+/* ----- START WEB ACCESSABILITY ----- */
+
+/* ----- END WEB ACCESSABILITY ----- */
+
+
+
+/* ----- START fOOTER ----- */
+
+/* ----- END FOOTER ----- */
+
+
+
+/* ----- START MEDIA QUERIES ----- */
+
+/* ----- END MEDIA QUERIES ----- */

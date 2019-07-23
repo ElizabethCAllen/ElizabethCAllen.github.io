@@ -7,37 +7,86 @@
     font-family: 'Special Elite', cursive;
 }
 
-.Text{
-    color: #
-}
-.Background{
-    background-color: #
+.plum{
+    color: #954696;
 }
 
-.Text{
-    color: #
-}
-.Background{
-    background-color: #
+.oceanBlue{
+    color: #5341BA;
 }
 
-.Text{
-    color: #
-}
-.Background{
-    background-color: #
+
+.wageningenGreen{
+    color: #36aa34;
 }
 
-.Text{
-    color: #
-}
-.Background{
-    background-color: #
+
+.sandstorm{
+    color: #eeca45;
 }
 
-.trolleyGrayText{
+.trolleyGray{
     color: #7a7e88;
 }
-.trolleyGrayBackGround{
-    background-color: #7a7e88;
+
+/* ----- END GLOBAL STYLES ----- */
+
+
+/* ----- START NAVBAR ----- */
+
+.navBarMobileButtons{
+    height: inherit;
+    margin: 5px;
 }
+/* ----- END NAVBAR ----- */
+
+
+
+/* ----- START JUMBOTRON----- */
+.jumbotronBackground{
+    background-image: url("../imgs/spring/");
+    background-size: cover;
+}
+.myNameHeader{
+    color: # ;
+}
+.jobTitles{
+    color: # ;
+}
+/* ----- END JUMBOTRON ----- */
+
+
+
+/* ----- START ABOUT ME ----- */
+
+/* ----- END ABOUT ME ----- */
+
+
+
+/* ----- START LANGUAGES ----- */
+
+/* ----- END LANGUAGES ----- */
+
+
+
+/* ----- START WORKS ----- */
+
+/* ----- END WORKS ----- */
+
+
+
+/* ----- START WEB ACCESSABILITY ----- */
+
+/* ----- END WEB ACCESSABILITY ----- */
+
+
+
+/* ----- START fOOTER ----- */
+
+/* ----- END FOOTER ----- */
+
+
+
+/* ----- START MEDIA QUERIES ----- */
+
+/* ----- END MEDIA QUERIES ----- */
