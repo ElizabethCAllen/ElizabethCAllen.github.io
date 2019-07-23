@@ -33,10 +33,26 @@
 
 
 /* ----- START NAVBAR ----- */
-
+.collapseBackground{
+    background-color: #36aa34;
+}
 .navBarMobileButtons{
     height: inherit;
     margin: 5px;
+}
+.navbar{
+    background-color:   #36aa34;
+
+}
+.navBarMobileButtons {
+    background-color:   #5341BA;
+    border-color:   #5341BA;
+    color: #080301;
+}
+.btn-primary:hover{
+    background-color: #954696;;
+    border-color:#954696;
+    color: #080301;
 }
 /* ----- END NAVBAR ----- */
 
@@ -44,15 +60,16 @@
 
 /* ----- START JUMBOTRON----- */
 .jumbotronBackground{
-    background-image: url("../imgs/spring/");
+    background-image: url("../imgs/spring/anisur-rahman-K2b7UDed6uQ-unsplash.jpg");
     background-size: cover;
+    height:25em;
+    background-position:  center center;
 }
 .myNameHeader{
-    color: # ;
+    color: #5341BA;
 }
 .jobTitles{
-    color: # ;
-}
+    color: #080301;
 /* ----- END JUMBOTRON ----- */
 
 

@@ -31,10 +31,28 @@
 
 
 /* ----- START NAVBAR ----- */
-
+.collapseBackground{
+    background-color: #28612C;
+}
 .navBarMobileButtons{
     height: inherit;
     margin: 5px;
+}
+.navbar{
+    background-color:   #28612C;
+
+}
+.navBarMobileButtons {
+    background-color:   #DBE8F5;
+    border-color:   #DBE8F5;
+    color: #265c8c;
+   
+}
+.btn-primary:hover{
+    background-color: #265c8c;;
+    border-color:#265c8c;;
+    box-shadow: #265c8c;
+    color: #DBE8F5;
 }
 /* ----- END NAVBAR ----- */
 
@@ -42,13 +60,14 @@
 .jumbotronBackground{
     background-image: url("../imgs/summer/");
     background-size: cover;
+    height:25em;
+    background-position: center bottom;
 }
 .myNameHeader{
-    color: # ;
+    color: #265c8c;
 }
 .jobTitles{
-    color: # ;
-}
+    color: #265c8c;
 /* ----- END JUMBOTRON ----- */
 
 
