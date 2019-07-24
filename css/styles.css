@@ -1,4 +1,7 @@
 /* ----- START GLOBAL STYLES ----- */
+body{
+    background-color: #527552;
+}
 .josefinSlab{
     font-family: 'Josefin Slab', serif;
 }
@@ -64,7 +67,7 @@
 .jumbotronBackground{
     background-image: url("../imgs/accessibility/rawpixel-557126-unsplash.jpg");
     background-size: cover;
-    height:25em;
+    height:20em;
     background-position: center center;
 }
 .myNameHeader{
@@ -72,6 +75,8 @@
 }
 .jobTitles{
     color: #3b4752;
+}
+
 /* ----- END JUMBOTRON ----- */
 
 
