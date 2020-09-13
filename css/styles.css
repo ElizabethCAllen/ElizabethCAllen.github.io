@@ -1,0 +1,111 @@
+/* ----- START GLOBAL STYLES ----- */
+body{
+    background-color: #527552;
+}
+.josefinSlab{
+    font-family: 'Josefin Slab', serif;
+}
+
+.specialElite{
+    font-family: 'Special Elite', cursive;
+}
+
+.richBlack{
+    color: #010203;
+}
+
+.charcoalBlue{
+    color: #3b4752;
+}
+
+.cyberGrape{
+    color: #684b7a;
+}
+
+.trolleyGray{
+    color: #7a7e88;
+}
+
+
+.raisinBlack{
+    color: #232427;
+}
+
+/* ----- END GLOBAL STYLES ----- */
+
+
+/* ----- START NAVBAR ----- */
+.collapseBackground{
+    background-color: #3b4752;
+}
+.navBarMobileButtons{
+    height: inherit;
+    margin: 5px;
+}
+.navbar{
+    background-color:   #3b4752;
+
+}
+.navBarMobileButtons {
+    background-color:   #684b7a;
+    border-color:   #684b7a;
+
+   
+}
+.btn-primary:hover{
+    background-color: #527552;;
+    border-color:#527552;;
+    box-shadow: #527552;
+
+}
+
+/* ----- END NAVBAR ----- */
+
+
+
+/* ----- START JUMBOTRON----- */
+.jumbotronBackground{
+    background-image: url("../imgs/accessibility/rawpixel-557126-unsplash.jpg");
+    background-size: cover;
+    height:20em;
+    background-position: center center;
+}
+.myNameHeader{
+    color: #3b4752;
+}
+.jobTitles{
+    color: #3b4752;
+}
+/* ----- END JUMBOTRON ----- */
+
+/* ----- START ABOUT ME ----- */
+
+/* ----- END ABOUT ME ----- */
+
+
+
+/* ----- START LANGUAGES ----- */
+
+/* ----- END LANGUAGES ----- */
+
+
+
+/* ----- START WORKS ----- */
+
+/* ----- END WORKS ----- */
+
+
+
+/* ----- START WEB ACCESSABILITY ----- */
+
+/* ----- END WEB ACCESSABILITY ----- */
+
+
+
+/* ----- START fOOTER ----- */
+
+/* ----- END FOOTER ----- */
+
+
+
+/* ----- START MEDIA QUERIES ----- */
