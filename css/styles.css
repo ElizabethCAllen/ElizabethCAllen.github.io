@@ -1,6 +1,6 @@
 /* ----- START GLOBAL STYLES ----- */
 body{
-    background-color: #527552;
+    background-color: #010203;
 }
 .josefinSlab{
     font-family: 'Josefin Slab', serif;
@@ -13,8 +13,13 @@ body{
 .richBlack{
     color: #010203;
 }
-
-.charcoalBlue{
+.ivoryWhite{
+    color: #fffff0;
+}
+.quickSilver{
+    color: #a2a3a3;
+}
+/* .charcoalBlue{
     color: #3b4752;
 }
 
@@ -28,7 +33,7 @@ body{
 
 
 .raisinBlack{
-    color: #232427;
+    color: #232427; */
 }
 
 /* ----- END GLOBAL STYLES ----- */
@@ -36,26 +41,26 @@ body{
 
 /* ----- START NAVBAR ----- */
 .collapseBackground{
-    background-color: #3b4752;
+    background-color: #010203;
 }
 .navBarMobileButtons{
     height: inherit;
     margin: 5px;
 }
 .navbar{
-    background-color:   #3b4752;
+    background-color:   #010203;
 
 }
 .navBarMobileButtons {
-    background-color:   #684b7a;
-    border-color:   #684b7a;
+    background-color:   #010203;
+    border-color:   #010203;
 
    
 }
 .btn-primary:hover{
-    background-color: #527552;;
-    border-color:#527552;;
-    box-shadow: #527552;
+    background-color: #010203;;
+    border-color:#010203;;
+    box-shadow: #010203;
 
 }
 
@@ -65,16 +70,17 @@ body{
 
 /* ----- START JUMBOTRON----- */
 .jumbotronBackground{
-    background-image: url("../imgs/accessibility/rawpixel-557126-unsplash.jpg");
+    background-image: url("../img/siddharth-narsimhan-8S5yioed4c0-unsplash.jpg");
     background-size: cover;
     height:20em;
     background-position: center center;
 }
 .myNameHeader{
-    color: #3b4752;
+    color: #a2a3a3  ;
+
 }
 .jobTitles{
-    color: #3b4752;
+    color: #a2a3a3;
 }
 /* ----- END JUMBOTRON ----- */
 
