@@ -41,26 +41,26 @@ body{
 
 /* ----- START NAVBAR ----- */
 .collapseBackground{
-    background-color: #010203;
+    background-color: transparent;
 }
 .navBarMobileButtons{
     height: inherit;
     margin: 5px;
 }
 .navbar{
-    background-color:   #010203;
+    background-color: transparent;
 
 }
 .navBarMobileButtons {
-    background-color:   #010203;
+    background-color: #010203;
     border-color:   #010203;
 
    
 }
 .btn-primary:hover{
-    background-color: #010203;;
+    background-color: #a2a3a3;
     border-color:#010203;;
-    box-shadow: #010203;
+    /* box-shadow: #010203; */
 
 }
 
@@ -70,21 +70,25 @@ body{
 
 /* ----- START JUMBOTRON----- */
 .jumbotronBackground{
-    background-image: url("../img/siddharth-narsimhan-8S5yioed4c0-unsplash.jpg");
+    background-image: url("../img/patrick-hendry-37ZuGYD3JOk-unsplash.jpg");
     background-size: cover;
-    height:20em;
-    background-position: center center;
+    height: 30em;
+    background-position: bottom center;
 }
 .myNameHeader{
-    color: #a2a3a3  ;
-
+    color: ##010203;
+    ;
+}
+.aboutMeImage{
+    height: 30em;
+    width: 30em;
 }
 /* ----- END JUMBOTRON ----- */
 
 /* ----- START ABOUT ME ----- */
 .aboutMeImage{
     height: 80%;
-    width: 80%;
+    width: 70%;
     
 }
 .jobTitles{
