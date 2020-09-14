@@ -1,6 +1,6 @@
 /* ----- START GLOBAL STYLES ----- */
 body{
-    background-color: #010203;
+    background-color: #a2a3a3;
 }
 .josefinSlab{
     font-family: 'Josefin Slab', serif;
@@ -48,7 +48,7 @@ body{
     margin: 5px;
 }
 .navbar{
-    background-color: transparent;
+    background-color: #010203;
 
 }
 .navBarMobileButtons {
@@ -76,23 +76,31 @@ body{
     background-position: bottom center;
 }
 .myNameHeader{
-    color: ##010203;
-    ;
+    color: #010203;
+    po
 }
-.aboutMeImage{
-    height: 30em;
-    width: 30em;
+.jobTitles{
+    color: #010203;
+
 }
+
 /* ----- END JUMBOTRON ----- */
 
 /* ----- START ABOUT ME ----- */
+.aboutMeContainer{
+    margin: 5%;
+    background-image: url('../img/siddharth-narsimhan-8S5yioed4c0-unsplash.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 50em;
+    width: fit-content;
+    
+}
 .aboutMeImage{
     height: 80%;
     width: 70%;
-    
-}
-.jobTitles{
-    color: #a2a3a3;
+    margin-left: 2em;
+    margin-top: 2em;
 }
 /* ----- END ABOUT ME ----- */
 
@@ -123,19 +131,16 @@ body{
 
 
 /* ----- START MEDIA QUERIES ----- */
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
-
-// Small devices (landscape phones, 576px and up)
+/* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { ... }
 
-// Medium devices (tablets, 768px and up)
+/* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { ... }
 
-// Large devices (desktops, 992px and up)
+/* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { ... }
 
-// Extra large devices (large desktops, 1200px and up)
+/* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     .myNameHeader{
         float: left;
