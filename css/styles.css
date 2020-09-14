@@ -63,6 +63,9 @@ body{
     /* box-shadow: #010203; */
 
 }
+.logoImage{
+    height: 2em;
+}
 
 /* ----- END NAVBAR ----- */
 
@@ -74,10 +77,10 @@ body{
     background-size: cover;
     height: 30em;
     background-position: bottom center;
+    
 }
 .myNameHeader{
     color: #010203;
-    po
 }
 .jobTitles{
     color: #010203;
@@ -88,12 +91,13 @@ body{
 
 /* ----- START ABOUT ME ----- */
 .aboutMeContainer{
-    margin: 5%;
+    margin: 2%;
     background-image: url('../img/siddharth-narsimhan-8S5yioed4c0-unsplash.jpg');
     background-size: cover;
     background-position: center center;
-    height: 50em;
+    height: 50em;   
     width: fit-content;
+    box-shadow: 0 0 8px 8px  #a2a3a3 inset;
     
 }
 .aboutMeImage{
@@ -101,6 +105,10 @@ body{
     width: 70%;
     margin-left: 2em;
     margin-top: 2em;
+}
+.aboutMeText{
+    margin-top: 2em;
+    color: #fffff0;
 }
 /* ----- END ABOUT ME ----- */
 
