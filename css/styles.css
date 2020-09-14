@@ -1,6 +1,6 @@
 /* ----- START GLOBAL STYLES ----- */
 body{
-    background-color: #a2a3a3;
+    background-color: #010203;
 }
 .josefinSlab{
     font-family: 'Josefin Slab', serif;
@@ -48,23 +48,30 @@ body{
     margin: 5px;
 }
 .navbar{
-    background-color: #010203;
+    background-color: transparent;
 
 }
+.navbar-toggler{
+    background-color: #010203;
+    opacity: .5;
+}
 .navBarMobileButtons {
+    margin-top: 2em;
     background-color: #010203;
     border-color:   #010203;
-
-   
 }
 .btn-primary:hover{
     background-color: #a2a3a3;
     border-color:#010203;;
+    color: #010203;
     /* box-shadow: #010203; */
 
 }
 .logoImage{
     height: 2em;
+    background-color: #010203;
+    opacity: .5;
+    border-radius: 25px;
 }
 
 /* ----- END NAVBAR ----- */
@@ -77,12 +84,14 @@ body{
     background-size: cover;
     height: 30em;
     background-position: bottom center;
-    
 }
+
 .myNameHeader{
+    margin-top: 1em;
     color: #010203;
 }
 .jobTitles{
+    margin-top: 3em;
     color: #010203;
 
 }
@@ -91,24 +100,25 @@ body{
 
 /* ----- START ABOUT ME ----- */
 .aboutMeContainer{
-    margin: 2%;
-    background-image: url('../img/siddharth-narsimhan-8S5yioed4c0-unsplash.jpg');
+    margin: 5%;
+    background-color: #a2a3a3;
+    /* background-image: url('../img/siddharth-narsimhan-8S5yioed4c0-unsplash.jpg'); */
     background-size: cover;
     background-position: center center;
     height: 35em;   
     width: fit-content;
-    box-shadow: 0 0 8px 8px  #a2a3a3 inset;
-    
+    /* box-shadow: 0 0 8px 8px  #a2a3a3 inset; */
+    border-radius: 3em;
 }
 .aboutMeImage{
-    height: 80%;
-    width: 70%;
-    margin-left: 2em;
-    margin-top: 2em;
+    height: 90%;
+    width: 90%;
+    margin-left: 3em;
+    margin-top: 3em;
 }
 .aboutMeText{
     margin-top: 2em;
-    color: #fffff0;
+    color: #010203;
 }
 /* ----- END ABOUT ME ----- */
 
