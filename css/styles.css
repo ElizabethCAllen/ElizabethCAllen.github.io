@@ -91,8 +91,10 @@ body{
     color: #010203;
 }
 .jobTitles{
-    margin-top: 3em;
+    margin-top: 1em;
     color: #010203;
+    /* text-align: center;
+    margin-right: em; */
 
 }
 
@@ -111,11 +113,17 @@ body{
     border-radius: 3em;
 }
 .aboutMeImage{
-    height: 90%;
-    width: 90%;
-    margin-left: 3em;
-    margin-top: 3em;
+    height: 15em;
+    width: 15em;
+    margin-left: 2em; 
+    margin-top: 2em;
+    margin-bottom: 2em;
+    /* position: center; */
 }
+/* .responsive {
+    width: 100%;
+    height: auto;
+  } */
 .aboutMeText{
     margin-top: 2em;
     color: #010203;
@@ -149,21 +157,50 @@ body{
 
 
 /* ----- START MEDIA QUERIES ----- */
+@media(min-width: 411px) {
+    .aboutMeImage{
+        height: 14em;
+        width: 15em;
+        margin-left: 2em; 
+        margin-top: 3em;
+        /* margin-right: 2em; */
+        /* position: center; */
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { ... }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { ... }
-
+.aboutMeImage{
+    height: 90%;
+    width: 90%;
+    margin-left: 2em;
+}
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { ... }
-
+.aboutMeImage{
+    height: 90%;
+    width: 90%;
+    margin-left: 2em;
+}
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     .myNameHeader{
         float: left;
+        margin-top: 0em;
+    }
+    .jobTitles{
+        /* float: right; */
+        margin-top: 3em;
+        color: #010203;
     }
     .aboutMeImage{
-        float: left;
+        height: 90%;
+        width: 90%;
+        margin-left: 2em;
     }
 }
