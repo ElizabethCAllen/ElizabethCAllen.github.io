@@ -59,6 +59,8 @@ body{
     margin-top: 2em;
     background-color: #010203;
     border-color:   #010203;
+    width: 10em;
+    position: top;
 }
 .btn-primary:hover{
     background-color: #a2a3a3;
@@ -109,10 +111,7 @@ body{
     transition: .25s ease-in-out;
     }
     
-    .animated-icon1 span {
-    background: #e65100;
-    }
-    
+
     .animated-icon2 span {
     background: #e3f2fd;
     }
@@ -407,4 +406,3 @@ body{
         width: 90%;
         margin-left: 2em;
     }
-}
