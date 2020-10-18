@@ -1,7 +1,7 @@
 /* ----- START GLOBAL STYLES ----- */
-body{
-    /* background-color: #010203; */
-}
+/* body{
+    background-color: #010203;
+} */
 .josefinSlab{
     font-family: 'Josefin Slab', serif;
 }
@@ -357,45 +357,58 @@ body{
   }
   .facebook-account{
     color: #4867AA;
-  }
-  
+  }  
 /* ----- END FOOTER ----- */
-
-
 
 /* ----- START MEDIA QUERIES ----- */
 @media(min-width: 411px) {
     .aboutMeImage{
         height: 15em;
         width: 15em;
-        margin-left: 1em; 
+        margin-left: 8em; 
         margin-top: 3em;
-        /* margin-right: 2em; */
-        /* position: center; */
         display: flex;
         justify-content: space-around;
     }
 }
-
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { ... }
-
+@media (min-width: 576px) { 
+    .aboutMeContainer{
+        height: inherit;
+    }
+    .aboutMeImage{
+        height: 25em;
+        width: 25em;
+        margin-left: 9em; 
+        margin-top: 3em;
+        display: flex;
+        justify-content: space-around;
+    }
+ }
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
-.aboutMeImage{
+@media (min-width: 768px) { 
+    .aboutMeContainer{
+        height: inherit;
+    }
+    .aboutMeImage{
     height: 90%;
     width: 90%;
     margin-left: 2em;
+    }
 }
-/* .facebook-account{
-    
-} */
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
-.aboutMeImage{
-    height: 90%;
-    width: 90%;
-    margin-left: 2em;
+@media (min-width: 992px) { 
+    .myNameHeader{
+        margin-left: 4em;
+    }
+    .aboutMeContainer{
+        height: inherit;
+    }
+    .aboutMeImage{
+        height: 90%;
+        width: 90%;
+        margin-left: 2em;
+    }
 }
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
@@ -408,9 +421,13 @@ body{
         margin-top: 3em;
         color: #010203;
     }
+    .aboutMeContainer{
+        height: inherit;
+    }
     .aboutMeImage{
-        height: 90%;
-        width: 90%;
-        margin-left: 2em;
+        height: inherit;
+        width: inherit;
+        margin-left: 1em;
+        margin-bottom: 2em;
     }
 }
