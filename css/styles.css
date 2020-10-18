@@ -302,14 +302,30 @@
     width: 100%;
     height: auto;
   } */
+.aboutMeHeader{
+    padding-top: 1em;
+}
 .aboutMeText{
     margin-top: 2em;
     color: #010203;
 }
 /* ----- END ABOUT ME ----- */
 
-
-
+/* START WHY HIRE ME? */
+.whyHireMeContainer{
+    background-color: #010203 ;
+    background-size: cover;
+    background-position: center center;
+    height: 35em;   
+    width: 74em;
+    /* width: fit-content; */
+    /* box-shadow: 0 0 8px 8px  #a2a3a3 inset; */
+    border-radius: 3em;
+}
+.whyHireMeHeader{
+    padding-top: 1em ;
+}
+/* END WHY HIRE ME */
 /* ----- START LANGUAGES ----- */
 
 /* ----- END LANGUAGES ----- */
