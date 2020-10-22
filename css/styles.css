@@ -276,56 +276,69 @@
 
 /* ----- START ABOUT ME ----- */
 .aboutMeContainer{
-    margin: 5%;
+    /* margin: 5%; */
+    margin-top: 5em;
+    margin-bottom: 6em;
     background-color: #a2a3a3;
     /* opacity: .5; */
     /* background-image: url('../img/siddharth-narsimhan-8S5yioed4c0-unsplash.jpg'); */
     background-size: cover;
     background-position: center center;
-    height: 35em;   
-    width: 40em;
+    height: inherit;   
+
     width: fit-content;
     /* box-shadow: 0 0 8px 8px  #a2a3a3 inset; */
-    border-radius: 3em;
+    /* border-radius: 3em; */
 }
 
 .aboutMeImage{
     height: 15em;
     width: 15em;
-    margin-left: 1em; 
+    margin-left: 4em; 
     margin-top: 2em;
     margin-bottom: 2em;
     /* position: center; */
-    opacity: 1.0;
+    /* opacity: 1.0; */
+    border: .8em solid #010203;
 }
 /* .responsive {
     width: 100%;
     height: auto;
   } */
 .aboutMeHeader{
-    padding-top: 1em;
+    /* padding-top:.5em; */
 }
 .aboutMeText{
-    margin-top: 2em;
+    margin-top: 1em;
     color: #010203;
+    text-align: center;
 }
 /* ----- END ABOUT ME ----- */
 
-/* START WHY HIRE ME? */
+/*  ----- START WHY HIRE ME? ----- */
 .whyHireMeContainer{
     background-color: #010203 ;
     background-size: cover;
     background-position: center center;
-    height: 35em;   
-    width: 74em;
+    height: inherit;   
+    width: inherit;
     /* width: fit-content; */
     /* box-shadow: 0 0 8px 8px  #a2a3a3 inset; */
-    border-radius: 3em;
+    /* border-radius: 3em; */
+}
+.whyHireMeText{
+    margin-right: 1em;
+    margin-left: 1em;
 }
 .whyHireMeHeader{
     padding-top: 1em ;
 }
-/* END WHY HIRE ME */
+dt,dd{
+    margin-right:2em;
+}
+/* ----- END WHY HIRE ME ----- */
+
+
 /* ----- START LANGUAGES ----- */
 
 /* ----- END LANGUAGES ----- */
@@ -378,13 +391,17 @@
 
 /* ----- START MEDIA QUERIES ----- */
 @media(min-width: 411px) {
+    .aboutMeContainer{
+        margin-bottom: 10em;
+    }
     .aboutMeImage{
         height: 15em;
         width: 15em;
-        margin-left: 8em; 
+        margin-left: 4em; 
         margin-top: 3em;
         display: flex;
         justify-content: space-around;
+
     }
 }
 /* // Small devices (landscape phones, 576px and up) */
