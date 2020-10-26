@@ -2,14 +2,15 @@
 /* body{
     background-color: #010203;
 } */
+.doubleSpace{
+    line-height: 200%;
+}
 .josefinSlab{
     font-family: 'Josefin Slab', serif;
 }
-
 .specialElite{
     font-family: 'Special Elite', cursive;
 }
-
 .richBlack{
     color: #010203;
 }
@@ -19,22 +20,12 @@
 .quickSilver{
     color: #a2a3a3;
 }
-/* .charcoalBlue{
-    color: #3b4752;
-}
-
-.cyberGrape{
-    color: #684b7a;
-}
-
 .trolleyGray{
     color: #7a7e88;
 }
-
-
 .raisinBlack{
     color: #232427; 
-}*/
+}
 
 /* ----- END GLOBAL STYLES ----- */
 
@@ -266,12 +257,8 @@
 }
 .jobTitles{
     margin-top: 1em;
-    color: #010203;
-    /* text-align: center;
-    margin-right: em; */
-
+    color: #010203;  
 }
-
 /* ----- END JUMBOTRON ----- */
 
 /* ----- START ABOUT ME ----- */
@@ -305,9 +292,9 @@
     width: 100%;
     height: auto;
   } */
-.aboutMeHeader{
-    /* padding-top:.5em; */
-}
+/* .aboutMeHeader{
+    padding-top:.5em;
+} */
 .aboutMeText{
     margin-top: 1em;
     color: #010203;
@@ -320,8 +307,8 @@
     background-color: #010203 ;
     background-size: cover;
     background-position: center center;
-    height: inherit;   
-    width: inherit;
+    height: fit-content;   
+    width: fit-content;
     /* width: fit-content; */
     /* box-shadow: 0 0 8px 8px  #a2a3a3 inset; */
     /* border-radius: 3em; */
@@ -335,6 +322,9 @@
 }
 dt,dd{
     margin-right:2em;
+}
+.interestList{
+    margin-left: 4em;
 }
 /* ----- END WHY HIRE ME ----- */
 
@@ -386,26 +376,71 @@ dt,dd{
   }
   .facebook-account{
     color: #4867AA;
+
   }  
 /* ----- END FOOTER ----- */
 
 /* ----- START MEDIA QUERIES ----- */
 @media(min-width: 411px) {
+    /* ----- START ABOUT ME ----- */
     .aboutMeContainer{
         margin-bottom: 10em;
     }
     .aboutMeImage{
         height: 15em;
         width: 15em;
-        margin-left: 4em; 
+        margin-left: 5.1em; 
         margin-top: 3em;
         display: flex;
         justify-content: space-around;
-
     }
+    /* ----- END ABOUT ME  ----- */
+
+    /* ----- START WHY HIRE ME ----- */
+    .interestList{
+        margin-left: 6em;
+    }
+    /* ----- END WHY HIRE ME ----- */
+    
+
+    /* ----- START FOOTER ----- */
+    .social-media{
+        padding-top: em;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .twitter-account{
+        color: #1DA1F2;
+        /* padding-left:7em  */
+      }
+      .instagram-account{
+        padding-left:.8em;
+        color: #fbc11c;
+        width: inherit;
+        animation-name: color-change;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-duration: infinite;
+      }
+      @keyframes color-change {
+          0%   {color:#fbc11c; left:0px; top:0px;}
+          25%  {color:#c1326c; left:200px; top:0px;}
+          50%  {color:#ac3c8e; left:200px; top:200px;}
+          75%  {color:#e3225d; left:0px; top:200px;}
+          100% {color:#fbc11c; left:0px; top:0px;}
+      }
+      .facebook-account{
+        color: #4867AA;
+      }  
+    /* ----- END FOOTER ----- */
+    
+
 }
+
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
+  /* ----- START ABOUT ME ----- */
     .aboutMeContainer{
         height: inherit;
     }
@@ -417,9 +452,50 @@ dt,dd{
         display: flex;
         justify-content: space-around;
     }
+  /* ----- START WHY HIRE ME ----- */
+.whyHireMeContainer{
+    height: fit-content;
+    width: fit-content;
+}
+  .interestList{
+    margin-left:15em;
+    }
+/* ----- END WHY HIRE ME ----- */
+    .social-media{
+        padding-top: em;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .twitter-account{
+        color: #1DA1F2;
+        padding-left:7em;   
+      }
+      .instagram-account{
+        padding-left:.8em;
+        color: #fbc11c;
+        width: inherit;
+        animation-name: color-change;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-duration: infinite;
+      }
+      @keyframes color-change {
+          0%   {color:#fbc11c; left:0px; top:0px;}
+          25%  {color:#c1326c; left:200px; top:0px;}
+          50%  {color:#ac3c8e; left:200px; top:200px;}
+          75%  {color:#e3225d; left:0px; top:200px;}
+          100% {color:#fbc11c; left:0px; top:0px;}
+      }
+      .facebook-account{
+        color: #4867AA;
+      }  
+    /* ----- END FOOTER ----- */
+    
  }
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+    /* ----- START ABOUT ME ----- */
     .aboutMeContainer{
         height: inherit;
     }
@@ -428,20 +504,70 @@ dt,dd{
     width: 90%;
     margin-left: 2em;
     }
+      /* ----- START WHY HIRE ME ----- */
+      .interestList{
+        margin-left:em;
+    }
+/* ----- END WHY HIRE ME ----- */
 }
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+        /* ----- START JUMBOTRON ----- */
     .myNameHeader{
         margin-left: 4em;
     }
+         /* ----- END JUMBOTRON ----- */
+        /* ----- START ABOUT ME ----- */
     .aboutMeContainer{
         height: inherit;
     }
+    .aboutMeHeader{
+        margin-top: 5em;
+    }
+    /* .aboutMeText{
+        line-height: 200%;
+    } */
     .aboutMeImage{
         height: 90%;
         width: 90%;
         margin-left: 2em;
     }
+  /* ----- START WHY HIRE ME ----- */
+      .interestList{
+          margin-left:33em;
+      }
+  /* ----- END WHY HIRE ME ----- */
+    .social-media{
+        padding-top: em;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .twitter-account{
+        color: #1DA1F2;
+        padding-left:7em;   
+      }
+      .instagram-account{
+        padding-left:.8em;
+        color: #fbc11c;
+        width: inherit;
+        animation-name: color-change;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-duration: infinite;
+      }
+      @keyframes color-change {
+          0%   {color:#fbc11c; left:0px; top:0px;}
+          25%  {color:#c1326c; left:200px; top:0px;}
+          50%  {color:#ac3c8e; left:200px; top:200px;}
+          75%  {color:#e3225d; left:0px; top:200px;}
+          100% {color:#fbc11c; left:0px; top:0px;}
+      }
+      .facebook-account{
+        color: #4867AA;
+      }  
+    /* ----- END FOOTER ----- */
+    
 }
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
@@ -455,12 +581,58 @@ dt,dd{
         color: #010203;
     }
     .aboutMeContainer{
-        height: inherit;
+        height: fit-content;
+        /* margin-bottom:  */
+    }
+    .aboutMeHeader{
+        margin-top: 6em;
+    }
+    .aboutMeText{
+        margin-left: 3em;
     }
     .aboutMeImage{
         height: inherit;
         width: inherit;
-        margin-left: 1em;
+        margin-left: 3em;
         margin-bottom: 2em;
     }
+  /* ----- START WHY HIRE ME ----- */
+    .whyHireMeContainer{
+        height: fit-content;
+    }
+    .interestList{
+    margin-left:33em;
+    }
+/* ----- END WHY HIRE ME ----- */
+    .social-media{
+        padding-top: em;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .twitter-account{
+        color: #1DA1F2;
+        padding-left:7em;   
+      }
+      .instagram-account{
+        padding-left:.8em;
+        color: #fbc11c;
+        width: inherit;
+        animation-name: color-change;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-duration: infinite;
+      }
+      @keyframes color-change {
+          0%   {color:#fbc11c; left:0px; top:0px;}
+          25%  {color:#c1326c; left:200px; top:0px;}
+          50%  {color:#ac3c8e; left:200px; top:200px;}
+          75%  {color:#e3225d; left:0px; top:200px;}
+          100% {color:#fbc11c; left:0px; top:0px;}
+      }
+      .facebook-account{
+        color: #4867AA;
+      }  
+    /* ----- END FOOTER ----- */
+    
 }
