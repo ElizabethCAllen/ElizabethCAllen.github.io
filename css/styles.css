@@ -277,7 +277,6 @@
     /* box-shadow: 0 0 8px 8px  #a2a3a3 inset; */
     /* border-radius: 3em; */
 }
-
 .aboutMeImage{
     height: 15em;
     width: 15em;
@@ -348,8 +347,11 @@ dt,dd{
 
 
 /* ----- START fOOTER ----- */
+footer{
+    height: fit-content;
+}
 .social-media{
-    padding-top: em;
+    margin-bottom: 2em;
     display: flex;
     justify-content: center;
   }
