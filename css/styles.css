@@ -347,7 +347,7 @@ dt,dd{
 
 
 /* ----- START fOOTER ----- */
-footer{
+ footer{
     height: fit-content;
 }
 .social-media{
@@ -507,6 +507,9 @@ footer{
     margin-left: 2em;
     }
       /* ----- START WHY HIRE ME ----- */
+    .whyHireMeContainer{
+      height: fit-content;
+    }
       .interestList{
         margin-left:em;
     }
@@ -522,6 +525,8 @@ footer{
         /* ----- START ABOUT ME ----- */
     .aboutMeContainer{
         height: inherit;
+        margin-top: 9em; 
+        padding-bottom: 3em;
     }
     .aboutMeHeader{
         margin-top: 5em;
@@ -535,8 +540,11 @@ footer{
         margin-left: 2em;
     }
   /* ----- START WHY HIRE ME ----- */
-      .interestList{
-          margin-left:33em;
+  .whyHireMeContainer{
+      height: fit-content;
+  }    
+  .interestList{
+          margin-left:29em;
       }
   /* ----- END WHY HIRE ME ----- */
     .social-media{
@@ -584,7 +592,8 @@ footer{
     }
     .aboutMeContainer{
         height: fit-content;
-        /* margin-bottom:  */
+        /* margin-bottom: 3em; */
+        margin-top: 10em;
     }
     .aboutMeHeader{
         margin-top: 6em;
