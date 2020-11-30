@@ -26,15 +26,7 @@
 .raisinBlack{
     color: #232427; 
 }
-.fontSize1{
-    font-size: 19px;
-}
-.fontSize2{
-    font-size: 18px;
-}
-.fontSize3{
-    font-size: 20px;
-}
+
 .underline{ 
     text-decoration: #fffff0 underline;
 }
@@ -529,6 +521,15 @@
         display: flex;
         justify-content: center;
       }
+      .fontSize1{
+        font-size: 19px;
+    }
+    .fontSize2{
+        font-size: 18px;
+    }
+    .fontSize3{
+        font-size: 20px;
+    }
   /* ----- END WHY HIRE ME ----- */
     .social-media{
         padding-top: em;
@@ -572,11 +573,11 @@
     }
     .myNameHeader{
         float: left;
-        margin-top: 0em;
+        margin-bottom: 1em;
     }
     .jobTitles{
         /* float: right; */
-        margin-top: 3em;
+        margin-top: em;
         color: #010203;
     }
     .aboutMeContainer{
@@ -601,7 +602,15 @@
     .whyHireMeContainer{
         height: fit-content;
     }
-
+    .fontSize1{
+        font-size: 19px;
+    }
+    .fontSize2{
+        font-size: 18px;
+    }
+    .fontSize3{
+        font-size: 20px;
+    }
 /* ----- END WHY HIRE ME ----- */
     .social-media{
         padding-top: em;
