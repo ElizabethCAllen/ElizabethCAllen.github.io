@@ -302,13 +302,16 @@
 /* ----- END ABOUT ME ----- */
 
 /*  ----- START WHY HIRE ME? ----- */
+/* start vertical tab why hire me test css */
+
+/*  end vertical tab why hire me test css */
 .whyHireMeContainer{
     background-color: #010203 ;
     background-size: cover;
     background-position: center center;
     height: fit-content;   
     width: fit-content;
-    margin: 1em;
+    /* margin: 1em; */
     /* width: fit-content; */
     /* box-shadow: 0 0 8px 8px  #a2a3a3 inset; */
     /* border-radius: 3em; */
@@ -511,7 +514,10 @@
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
         /* ----- START JUMBOTRON ----- */
-    .myNameHeader{
+    .jumbotronBackground{
+        height: 35em;
+    }
+        .myNameHeader{
         margin-left: 4em;
     }
          /* ----- END JUMBOTRON ----- */
@@ -535,7 +541,7 @@
   /* ----- START WHY HIRE ME ----- */
   .whyHireMeContainer{
       height: fit-content;
-      margin: 3em;
+      padding: 3em;
   }    
   .interestList{
           margin-right: 3em;
@@ -617,7 +623,7 @@
   /* ----- START WHY HIRE ME ----- */
     .whyHireMeContainer{
         height: fit-content;
-        margin: 3em;
+        padding: 3em;
     }
     .fontSize1{
         font-size: 19px;
