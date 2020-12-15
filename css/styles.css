@@ -43,7 +43,8 @@
 }
 .navbar{
     background-color: transparent;
-
+    width:100%;
+    position: fixed;
 }
 .navbar-toggler{
     background-color: #010203;
@@ -86,7 +87,7 @@
     height: 2em;
     background-color: #010203;
     /* opacity: .5; */
-    border-radius: 15px;
+    border-radius: 10px;
 }
 .dropDown{
     background-color: #a2a3a3;
@@ -239,11 +240,18 @@
 /* ----- END NAVBAR ----- */
 
 /* ----- START JUMBOTRON----- */
-.jumbotronBackground{
-    background-image: url("../img/patrick-hendry-37ZuGYD3JOk-unsplash.jpg");
+
+#VantaWaves{
+    position: absolute;
     background-size: cover;
-    height: 30em;
-    background-position: bottom center;
+    display: block;
+    min-width: 100%;
+    min-height: 50vh;
+    top: 0;
+    right: 0;
+    /* bottom:0; */
+    left: 0;
+    /* z-index:  ; */
 }
 .whyHireMeJumbortron{
 
@@ -257,30 +265,23 @@
 }
 .jobTitles{
     margin-top: 1em;
-    color: #010203;  
+    color: #010203 ; 
+    text-decoration: underline #010203 
 }
 /* ----- END JUMBOTRON ----- */
 
 /* ----- START ABOUT ME ----- */
 .aboutMeContainer{
-    /* margin: 5%; */
-    margin-top: 5em;
     margin-bottom: 6em;
-    background-color: #a2a3a3;
-    /* opacity: .5; */
-    /* background-image: url('../img/siddharth-narsimhan-8S5yioed4c0-unsplash.jpg'); */
-    background-size: cover;
+        background-size: cover;
     background-position: center center;
     height: inherit;   
-
     width: fit-content;
-    /* box-shadow: 0 0 8px 8px  #a2a3a3 inset; */
-    /* border-radius: 3em; */
 }
 .aboutMeImage{
     height: 15em;
     width: 15em;
-    margin-left: 4em; 
+    margin-left: 1em; 
     margin-top: 2em;
     margin-bottom: 2em;
     /* position: center; */
@@ -331,7 +332,14 @@
 
 
 /* ----- START LANGUAGES ----- */
-
+.card {
+    transform-style: preserve-3d;
+    min-height: 64vh;
+    width: 20vw;
+    border-radius: 30px;
+    padding: 0rem 5rem;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
 /* ----- END LANGUAGES ----- */
 
 
@@ -385,10 +393,69 @@
 /* ----- END FOOTER ----- */
 
 /* ----- START MEDIA QUERIES ----- */
+@media(min-width: 280){
+    .aboutMeImage{
+        margin-right: 4em;
+        margin-left: 0;
+    }
+    .aboutMeContainer{
+        margin-bottom: 1em;
+        height: fit-content;
+    }
+    .whyHireMeContainer{
+        margin-top: 4em;
+    }
+}
+@media(min-width:320px){
+    .aboutMeImage{
+        margin-right:2em;
+        float: right;
+        display: flex;
+        justify-content: center;
+    }
+    .aboutMeContainer{
+        margin-bottom: 1em;
+    }
+}
+@media(min-width:360px) {
+    .navbar{
+        width: 360px;
+        position: fixed;
+    }
+    .aboutMeImage{
+        margin-left: 3.5em;
+    }
+    .jobTitles{
+        margin-top: 0em;
+    }
+}
+@media(min-width: 375px){
+    .aboutMeImage{
+        margin-right:3.5em;
+        margin-left: 0;
+    }
+}
 @media(min-width: 411px) {
     /* ----- START ABOUT ME ----- */
+    .navbar{
+        width: 100%;
+        position: fixed;
+    }
+    #VantaWaves{
+        position: absolute;
+        background-size: cover;
+        display: block;
+        min-width: 100%;
+        min-height: 50vh;
+        /* left: 0;
+        right: 0;
+        top:0;
+        bottom: 0; */
+        z-index: -2;
+    }
     .aboutMeContainer{
-        margin-bottom: 10em;
+        margin-bottom: 2em;
+        margin-top: 2em;
     }
     .aboutMeImage{
         height: 15em;
@@ -439,7 +506,22 @@
     
 
 }
-
+@media (min-width: 540px){
+    .aboutMeImage{
+        /* margin-right: 3em; */
+        margin-left: 9em;
+    }
+ 
+}
+@media (min-width: 568px){
+   
+    .aboutMeContainer{
+        margin-top: 2em;
+    }
+    .aboutMeImage{
+        margin-left: 10.5em;
+    }
+}
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
   /* ----- START ABOUT ME ----- */
@@ -449,10 +531,11 @@
     .aboutMeImage{
         height: 25em;
         width: 25em;
-        margin-left: 9em; 
+        margin-left: 15em; 
         margin-top: 3em;
         display: flex;
         justify-content: space-around;
+           
     }
   /* ----- START WHY HIRE ME ----- */
 .whyHireMeContainer{
@@ -498,11 +581,15 @@
     /* ----- START ABOUT ME ----- */
     .aboutMeContainer{
         height: inherit;
+        margin-bottom: 5em;
+    }
+    .aboutMeHeader{
+       padding-top: 1em;
     }
     .aboutMeImage{
     height: 90%;
     width: 90%;
-    margin-left: 2em;
+   
     }
       /* ----- START WHY HIRE ME ----- */
     .whyHireMeContainer{
@@ -516,6 +603,9 @@
         /* ----- START JUMBOTRON ----- */
     .jumbotronBackground{
         height: 35em;
+    }
+    #VantaWaves{
+        height: fit-content;
     }
         .myNameHeader{
         margin-left: 4em;
@@ -589,23 +679,29 @@
       }  
     /* ----- END FOOTER ----- */
     
-}
+
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-
+    #VantaWaves{
+        min-height: 80vh; 
+    }
     .myNameHeader{
         float: left;
         margin-bottom: 1em;
+        /* font-size: 50px; */
+        font-weight: 400;
     }
     .jobTitles{
-        /* float: right; */
-        margin-top: em;
+        /* float: left; */
+        margin-top: 1em;
         color: #010203;
+        font-weight: 600;
+        font-size: 30px;
+        text-decoration: underline #010203;
     }
     .aboutMeContainer{
         height: fit-content;
-        /* margin-bottom: 3em; */
-        margin-top: 10em;
+        margin-top: 5em;
     }
     .aboutMeHeader{
         margin-top: 6em;
@@ -617,7 +713,7 @@
     .aboutMeImage{
         height: inherit;
         width: inherit;
-        margin-left: 3em;
+        margin-left: 0em;
         margin-bottom: 2em;
     }
   /* ----- START WHY HIRE ME ----- */
@@ -666,4 +762,39 @@
       }  
     /* ----- END FOOTER ----- */
     
+}
+}
+@media (min-width: 1349px){
+    .freelance{
+        float:right;
+        margin-right: 5.5em;
+        
+    }
+    .myNameHeader{
+        margin-top: 2em;
+    }
+    .jobTitles{
+        margin-top: 1.5em;
+    }
+}
+@media (min-width: 1400px){
+   .myNameHeader{
+       margin-top: 1em;
+   }
+   .positionList{
+       margin-top: 6em;
+   }
+    .jobTitles{
+        float: left;
+        margin-top: em;
+        color: #010203;
+        /* font-weight: 200; */
+        font-size: 20px;
+        text-decoration: underline #010203
+    }
+    .aboutMeHeader{
+        margin-top: 2em;
+        font-weight: 400
+        
+    }
 }
