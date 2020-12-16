@@ -1,7 +1,4 @@
-// scroll revela start 
-// ScrollReveal().reveal('.htmlclass',{ delay: 400 })
-// ScrollReveal().reveal('.navbar');
-// scroll reveal end
+
 // start navbar
 $(document).ready(function () {
 
