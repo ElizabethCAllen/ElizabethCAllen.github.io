@@ -357,21 +357,40 @@
 
 
 /* ----- START fOOTER ----- */
- footer{
+ /* footer{
     height: fit-content;
-}
+} */
 .social-media{
     margin-bottom: 2em;
     display: flex;
     justify-content: center;
   }
   
-  .twitter-account{
-    color: #1DA1F2;
-    padding-left:7em;   
-  }
-  .instagram-account{
-    padding-left:.8em;
+#contact{
+  background-color: #010203;
+  color: #FFF;
+  padding-bottom:  50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#contact h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 4em;
+  /* padding-top:2em; */
+}
+#contact form{
+  background-color: #010203;
+  border: 1px solid black;
+  /* padding: 15px; */
+}
+#contact .form-group span{
+  color:fffff0;
+}
+#contact .icon{
+  font-size: 5em;
+  /* margin: 1em; */
+}
+.insta{
     color: #fbc11c;
     width: inherit;
     animation-name: color-change;
@@ -386,10 +405,40 @@
       75%  {color:#e3225d; left:0px; top:200px;}
       100% {color:#fbc11c; left:0px; top:0px;}
   }
-  .facebook-account{
-    color: #4867AA;
+.gh{
+  color: white;
+}
+.fcb{
+  color: #4867AA;
+}
+.linkedin{
+ color: #007BB6;
+}
+.name{
+  color: #fffff0;
+  text-decoration: none;
+  font-family: 'Satisfy', cursive;
+  font-weight: 700;
+  font-size: 2em;
+  padding-left: 4em;
+}
+.name:hover,.city:hover,
+.phone:hover{
+  color: #fffff0;
+  text-decoration: none;
+}
+.street,
+.city,
+.phone{
+  color:#fffff0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 4em;
+  text-decoration: none;
+}
+.map{
+  padding-left: 5em;
+}
 
-  }  
 /* ----- END FOOTER ----- */
 
 /* ----- START MEDIA QUERIES ----- */
@@ -447,10 +496,6 @@
         display: block;
         min-width: 100%;
         min-height: 50vh;
-        /* left: 0;
-        right: 0;
-        top:0;
-        bottom: 0; */
         z-index: -2;
     }
     .aboutMeContainer{
@@ -479,10 +524,7 @@
         justify-content: center;
       }
       
-      .twitter-account{
-        color: #1DA1F2;
-        /* padding-left:7em  */
-      }
+     
       .instagram-account{
         padding-left:.8em;
         color: #fbc11c;
@@ -550,10 +592,7 @@
         justify-content: center;
       }
       
-      .twitter-account{
-        color: #1DA1F2;
-        padding-left:7em;   
-      }
+      
       .instagram-account{
         padding-left:.8em;
         color: #fbc11c;
