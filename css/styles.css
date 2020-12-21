@@ -332,14 +332,14 @@
 
 
 /* ----- START LANGUAGES ----- */
-.card {
+/* .card {
     transform-style: preserve-3d;
     min-height: 64vh;
     width: 20vw;
     border-radius: 30px;
     padding: 0rem 5rem;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
-}
+} */
 /* ----- END LANGUAGES ----- */
 
 
@@ -366,29 +366,23 @@
     justify-content: center;
   }
   
-#contact{
+#contactMe{
   background-color: #010203;
   color: #FFF;
-  padding-bottom:  50px;
+  padding-bottom:  20px;
   font-family: Arial, Helvetica, sans-serif;
 }
-#contact h3{
+#contactMe h4{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 4em;
-  /* padding-top:2em; */
+  font-size: 2em; 
+  padding-top:2em;
+  padding-left: 1em;
 }
-#contact form{
-  background-color: #010203;
-  border: 1px solid black;
-  /* padding: 15px; */
-}
-#contact .form-group span{
-  color:fffff0;
-}
-#contact .icon{
+
+#contactMe .icon{
   font-size: 5em;
-  /* margin: 1em; */
+
 }
 .insta{
     color: #fbc11c;
@@ -414,45 +408,23 @@
 .linkedin{
  color: #007BB6;
 }
-.name{
-  color: #fffff0;
-  text-decoration: none;
-  font-family: 'Satisfy', cursive;
-  font-weight: 700;
-  font-size: 2em;
-  padding-left: 4em;
-}
-.name:hover,.city:hover,
-.phone:hover{
-  color: #fffff0;
-  text-decoration: none;
-}
-.street,
-.city,
-.phone{
-  color:#fffff0;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-left: 4em;
-  text-decoration: none;
-}
-.map{
-  padding-left: 5em;
+.updatedDate{
+    display: flex;
+    align-item: center;
+    margin-left: 1em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ----- END FOOTER ----- */
 
 /* ----- START MEDIA QUERIES ----- */
-@media(min-width: 280){
+@media(min-width: 280px){
     .aboutMeImage{
-        margin-right: 4em;
-        margin-left: 0;
+       
     }
     .aboutMeContainer{
-        margin-bottom: 1em;
+        /* margin-bottom: 1em; */
         height: fit-content;
-    }
-    .whyHireMeContainer{
-        margin-top: 4em;
     }
 }
 @media(min-width:320px){
@@ -464,6 +436,23 @@
     }
     .aboutMeContainer{
         margin-bottom: 1em;
+    }
+    .contactMeHeader{
+        font-size: 4em;
+        font-weight: 300;
+        display: flex;
+        justify-content: center;
+      }
+    .social-media{
+        display: flex;
+        justify-content: center;
+      }
+      .footerContent{
+        display:flex;
+        justify-content: center;
+      }
+      .updatedDate{
+        margin-left:2em;
     }
 }
 @media(min-width:360px) {
@@ -477,11 +466,30 @@
     .jobTitles{
         margin-top: 0em;
     }
+    .contactMeHeader{
+      font-size: 2em;
+      font-weight: 300;
+    }
+    .social-media{
+      display: flex;
+      justify-content: center;
+      
+    }
+    .footerContent{
+      display:flex;
+      justify-content: center;
+    }
+    .updatedDate{
+        margin-left:3.5em;
+    }
 }
 @media(min-width: 375px){
     .aboutMeImage{
         margin-right:3.5em;
         margin-left: 0;
+    }
+    .updatedDate{
+        margin-left:4em;
     }
 }
 @media(min-width: 411px) {
@@ -510,6 +518,7 @@
         display: flex;
         justify-content: space-around;
     }
+    
     /* ----- END ABOUT ME  ----- */
 
     /* ----- START WHY HIRE ME ----- */
@@ -519,31 +528,15 @@
 
     /* ----- START FOOTER ----- */
     .social-media{
-        padding-top: em;
+        /* padding-top: em; */
         display: flex;
         justify-content: center;
+        margin-left: .5em;
       }
-      
-     
-      .instagram-account{
-        padding-left:.8em;
-        color: #fbc11c;
-        width: inherit;
-        animation-name: color-change;
-        animation-duration: 4s;
-        animation-iteration-count: infinite;
-        animation-duration: infinite;
-      }
-      @keyframes color-change {
-          0%   {color:#fbc11c; left:0px; top:0px;}
-          25%  {color:#c1326c; left:200px; top:0px;}
-          50%  {color:#ac3c8e; left:200px; top:200px;}
-          75%  {color:#e3225d; left:0px; top:200px;}
-          100% {color:#fbc11c; left:0px; top:0px;}
-      }
-      .facebook-account{
-        color: #4867AA;
-      }  
+      .updatedDate{
+        margin-left:5em;
+        }
+
     /* ----- END FOOTER ----- */
     
 
@@ -553,6 +546,9 @@
         /* margin-right: 3em; */
         margin-left: 9em;
     }
+    .updatedDate{
+        margin-left:10em;
+        }
  
 }
 @media (min-width: 568px){
@@ -562,6 +558,9 @@
     }
     .aboutMeImage{
         margin-left: 10.5em;
+    }
+    .updatedDate{
+        margin-left:11em;
     }
 }
 /* // Small devices (landscape phones, 576px and up) */
@@ -587,31 +586,13 @@
 
 /* ----- END WHY HIRE ME ----- */
     .social-media{
-        padding-top: em;
+        /* padding-top: em; */
         display: flex;
         justify-content: center;
       }
       
       
-      .instagram-account{
-        padding-left:.8em;
-        color: #fbc11c;
-        width: inherit;
-        animation-name: color-change;
-        animation-duration: 4s;
-        animation-iteration-count: infinite;
-        animation-duration: infinite;
-      }
-      @keyframes color-change {
-          0%   {color:#fbc11c; left:0px; top:0px;}
-          25%  {color:#c1326c; left:200px; top:0px;}
-          50%  {color:#ac3c8e; left:200px; top:200px;}
-          75%  {color:#e3225d; left:0px; top:200px;}
-          100% {color:#fbc11c; left:0px; top:0px;}
-      }
-      .facebook-account{
-        color: #4867AA;
-      }  
+  
     /* ----- END FOOTER ----- */
     
  }
@@ -636,6 +617,12 @@
     }
 
 /* ----- END WHY HIRE ME ----- */
+    .social-media{
+        margin-left: 1.8em;
+    }
+    .updatedDate{
+        margin-left:19em;
+        }
 }
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
@@ -687,35 +674,15 @@
         font-size: 20px;
     }
   /* ----- END WHY HIRE ME ----- */
-    .social-media{
-        padding-top: em;
-        display: flex;
-        justify-content: center;
-      }
-      
-      .twitter-account{
-        color: #1DA1F2;
-        padding-left:7em;   
-      }
-      .instagram-account{
-        padding-left:.8em;
-        color: #fbc11c;
-        width: inherit;
-        animation-name: color-change;
-        animation-duration: 4s;
-        animation-iteration-count: infinite;
-        animation-duration: infinite;
-      }
-      @keyframes color-change {
-          0%   {color:#fbc11c; left:0px; top:0px;}
-          25%  {color:#c1326c; left:200px; top:0px;}
-          50%  {color:#ac3c8e; left:200px; top:200px;}
-          75%  {color:#e3225d; left:0px; top:200px;}
-          100% {color:#fbc11c; left:0px; top:0px;}
-      }
-      .facebook-account{
-        color: #4867AA;
-      }  
+  .social-media{
+    /* margin-bottom: 2em; */
+    display: flex;
+    justify-content: center;
+    margin-right: 1em;
+  } 
+  .updatedDate{
+    margin-left:25em;
+    }
     /* ----- END FOOTER ----- */
     
 
@@ -771,34 +738,13 @@
     }
 /* ----- END WHY HIRE ME ----- */
     .social-media{
-        padding-top: em;
+        /* padding-top: em; */
         display: flex;
         justify-content: center;
       }
-      
-      .twitter-account{
-        color: #1DA1F2;
-        padding-left:7em;   
-      }
-      .instagram-account{
-        padding-left:.8em;
-        color: #fbc11c;
-        width: inherit;
-        animation-name: color-change;
-        animation-duration: 4s;
-        animation-iteration-count: infinite;
-        animation-duration: infinite;
-      }
-      @keyframes color-change {
-          0%   {color:#fbc11c; left:0px; top:0px;}
-          25%  {color:#c1326c; left:200px; top:0px;}
-          50%  {color:#ac3c8e; left:200px; top:200px;}
-          75%  {color:#e3225d; left:0px; top:200px;}
-          100% {color:#fbc11c; left:0px; top:0px;}
-      }
-      .facebook-account{
-        color: #4867AA;
-      }  
+      .updatedDate{
+        margin-left:32em;
+        }
     /* ----- END FOOTER ----- */
     
 }
@@ -815,19 +761,30 @@
     .jobTitles{
         margin-top: 1.5em;
     }
+    .updatedDate{
+        margin-left:31em;
+        }
+
 }
 @media (min-width: 1400px){
-   .myNameHeader{
-       margin-top: 1em;
+   .social-media{
+     margin-top: 2em;
+   }
+  .myNameHeader{
+       margin-top: 2em;
+       font-weight: 700;
+       margin-right: 2em;
    }
    .positionList{
        margin-top: 6em;
+
    }
     .jobTitles{
         float: left;
-        margin-top: em;
+        margin-top: 2em;
+        margin-right:25px;
         color: #010203;
-        /* font-weight: 200; */
+        font-weight: 400;
         font-size: 20px;
         text-decoration: underline #010203
     }
@@ -836,4 +793,7 @@
         font-weight: 400
         
     }
+    .updatedDate{
+        margin-left:31em;
+        }
 }
