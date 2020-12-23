@@ -332,6 +332,9 @@
 
 
 /* ----- START LANGUAGES ----- */
+.langLogos{
+    width: 100%;
+}
 /* .card {
     transform-style: preserve-3d;
     min-height: 64vh;
@@ -377,7 +380,7 @@
   font-weight: 400;
   font-size: 2em; 
   padding-top:2em;
-  padding-left: 1em;
+  /* padding-left: 1em; */
 }
 
 #contactMe .icon{
@@ -536,7 +539,10 @@
       .updatedDate{
         margin-left:5em;
         }
-
+        #contactMe h4{
+            padding-left: 1em;
+        }
+    
     /* ----- END FOOTER ----- */
     
 
@@ -617,6 +623,9 @@
     }
 
 /* ----- END WHY HIRE ME ----- */
+    .footerContent{
+        height: fit-content;
+    }
     .social-media{
         margin-left: 1.8em;
     }
