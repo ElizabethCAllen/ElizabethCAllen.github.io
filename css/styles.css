@@ -78,7 +78,6 @@
     background-color: #a2a3a3;
     border-color:#010203;;
     color: #010203;
-    /* box-shadow: #010203; */
     text-decoration: inherit;
    
 
@@ -86,7 +85,6 @@
 .logoImage{
     height: 2em;
     background-color: #010203;
-    /* opacity: .5; */
     border-radius: 10px;
 }
 .dropDown{
@@ -94,9 +92,7 @@
 }
 .navbar-nav{
     background-color: #535556;
-    /* opacity: .8; */
 }
-/* Icon 1 */
 
 .animated-icon1, .animated-icon2, .animated-icon3 {
     width: 30px;
@@ -288,13 +284,7 @@
     /* opacity: 1.0; */
     border: .8em solid #010203;
 }
-/* .responsive {
-    width: 100%;
-    height: auto;
-  } */
-/* .aboutMeHeader{
-    padding-top:.5em;
-} */
+
 .aboutMeText{
     margin-top: 1em;
     color: #010203;
@@ -312,10 +302,6 @@
     background-position: center center;
     height: fit-content;   
     width: fit-content;
-    /* margin: 1em; */
-    /* width: fit-content; */
-    /* box-shadow: 0 0 8px 8px  #a2a3a3 inset; */
-    /* border-radius: 3em; */
 }
 .whyHireMeText{
     margin-right: 1em;
@@ -332,17 +318,14 @@
 
 
 /* ----- START LANGUAGES ----- */
+#techLangandSkills{
+    padding-bottom: 3em;
+    padding-top: 2em;
+}
 .langLogos{
     width: 100%;
 }
-/* .card {
-    transform-style: preserve-3d;
-    min-height: 64vh;
-    width: 20vw;
-    border-radius: 30px;
-    padding: 0rem 5rem;
-    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
-} */
+
 /* ----- END LANGUAGES ----- */
 
 
@@ -527,8 +510,11 @@
     /* ----- START WHY HIRE ME ----- */
   
     /* ----- END WHY HIRE ME ----- */
-    
-
+    /* START TECHNICAL LANGUAGES AND SKILLS*/
+    .technicalLangHeader{
+        margin-left: 1em;
+    }
+    /* END TECHNICAL LANGUAGES AND SKILLS */
     /* ----- START FOOTER ----- */
     .social-media{
         /* padding-top: em; */
@@ -552,6 +538,12 @@
         /* margin-right: 3em; */
         margin-left: 9em;
     }
+
+        /* START TECHNICAL LANGUAGES AND SKILLS*/
+        .technicalLangHeader{
+            margin-left: 3.4em;
+        }
+        /* END TECHNICAL LANGUAGES AND SKILLS */
     .updatedDate{
         margin-left:10em;
         }
@@ -565,6 +557,11 @@
     .aboutMeImage{
         margin-left: 10.5em;
     }
+        /* START TECHNICAL LANGUAGES AND SKILLS*/
+        .technicalLangHeader{
+            margin-left: 4em;
+        }
+        /* END TECHNICAL LANGUAGES AND SKILLS */
     .updatedDate{
         margin-left:11em;
     }
@@ -591,6 +588,13 @@
 }
 
 /* ----- END WHY HIRE ME ----- */
+    /* START TECHNICAL LANGUAGES AND SKILLS*/
+    .technicalLangHeader{
+        margin-right: 3em;
+    }
+    /* END TECHNICAL LANGUAGES AND SKILLS */
+
+        /* ----- START FOOTER ----- */
     .social-media{
         /* padding-top: em; */
         display: flex;
@@ -623,7 +627,12 @@
     }
 
 /* ----- END WHY HIRE ME ----- */
-    
+        /* START TECHNICAL LANGUAGES AND SKILLS*/
+        .technicalLangHeader{
+            margin-left: 7em;
+        }
+        /* END TECHNICAL LANGUAGES AND SKILLS */
+
     .social-media{
         margin-left: 1.8em;
     }
@@ -681,6 +690,12 @@
         font-size: 20px;
     }
   /* ----- END WHY HIRE ME ----- */
+      /* START TECHNICAL LANGUAGES AND SKILLS*/
+      .technicalLangHeader{
+        margin-left: 12em;
+        margin-top: 3em;
+    }
+    /* END TECHNICAL LANGUAGES AND SKILLS */
   .social-media{
     /* margin-bottom: 2em; */
     display: flex;
@@ -744,6 +759,11 @@
         font-size: 20px;
     }
 /* ----- END WHY HIRE ME ----- */
+    /* START TECHNICAL LANGUAGES AND SKILLS*/
+    .technicalLangHeader{
+        margin-left: 15em;
+    }
+    /* END TECHNICAL LANGUAGES AND SKILLS */
     .social-media{
         /* padding-top: em; */
         display: flex;
@@ -768,6 +788,28 @@
     .jobTitles{
         margin-top: 1.5em;
     }
+    #techLangandSkills{
+        margin-bottom: 5em;
+        font-size: 30px;
+    }
+    #techLangandSkills h3{
+        font-size: 40px;
+        margin-left:8em;
+        text-decoration: underline;
+        margin-bottom: 1em;
+
+    }
+    #techLangandSkills h5{
+        font-size: 30px;
+        text-decoration: underline ;
+    }
+    .bootstrapLogo{
+        margin-top: 2.5em;
+    }
+    .BSTitle{
+        margin-top: 1em;
+    }
+
     .updatedDate{
         margin-left:31em;
         }
@@ -800,6 +842,7 @@
         font-weight: 400
         
     }
+
     .updatedDate{
         margin-left:31em;
         }
