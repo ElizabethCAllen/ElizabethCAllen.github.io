@@ -2,6 +2,12 @@
 /* body{
     background-color: #010203;
 } */
+h3{
+    font-size: 40px;
+}
+.underline{
+    text-decoration: underline;
+}
 .doubleSpace{
     line-height: 200%;
 }
@@ -293,9 +299,6 @@
 /* ----- END ABOUT ME ----- */
 
 /*  ----- START WHY HIRE ME? ----- */
-/* start vertical tab why hire me test css */
-
-/*  end vertical tab why hire me test css */
 .whyHireMeContainer{
     background-color: #010203 ;
     background-size: cover;
@@ -329,6 +332,15 @@
 /* ----- END LANGUAGES ----- */
 
 
+/* ----- START WEB ACCESSABILITY ----- */
+    .webAccessContainer{
+        /* background-image: url('../img/siddharth-narsimhan-8S5yioed4c0-unsplash.jpg'); */
+        background-size: cover;
+        height: auto;
+        width: ;
+    }
+  
+/* ----- END WEB ACCESSABILITY ----- */
 
 /* ----- START WORKS ----- */
 
@@ -648,6 +660,7 @@
     }
     #VantaWaves{
         height: fit-content;
+
     }
         .myNameHeader{
         margin-left: 4em;
@@ -710,6 +723,7 @@
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
+ 
     #VantaWaves{
         min-height: 80vh; 
     }
@@ -777,11 +791,21 @@
 }
 }
 @media (min-width: 1349px){
+    #vantaWaves{
+        min-height: 80vh;
+    }
     .freelance{
         float:right;
         margin-right: 5.5em;
         
     }
+    .aboutMeHeader{
+        font-weight: 200;
+    }
+    .aboutMeText{
+        /* font-size: 25px; */
+    }
+
     .myNameHeader{
         margin-top: 2em;
     }
@@ -790,14 +814,12 @@
     }
     #techLangandSkills{
         margin-bottom: 5em;
-        font-size: 30px;
+        font-size: 20px;
     }
     #techLangandSkills h3{
         font-size: 40px;
         margin-left:8em;
         text-decoration: underline;
-        
-
     }
     #techLangandSkills h5{
         font-size: 30px;
