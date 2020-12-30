@@ -287,7 +287,9 @@ h3{
     /* opacity: 1.0; */
     border: .8em solid #010203;
 }
-
+.aboutMeHeader{
+    text-decoration: underline #010203;
+}
 .aboutMeText{
     margin-top: 1em;
     color: #010203;
@@ -322,6 +324,9 @@ h3{
     padding-bottom: 3em;
     padding-top: 2em;
 }
+.technicalLangHeader{
+    text-decoration: underline #010203;
+}
 .langLogos{
     width: 100%;
 }
@@ -330,26 +335,62 @@ h3{
 
 
 /* ----- START WEB ACCESSABILITY ----- */
+   .webAccessContainer{
+       /* background-color:#010203 ; */
+       margin-bottom: 1em;
+       padding-bottom: 50px;
+   }
+    .webAccTitle{
+        margin-top: 1em;
+        text-decoration: underline #010203;
+    }    
+
     #webAccessiblity{
-        background-image: url('../img/siddharth-narsimhan-8S5yioed4c0-unsplash.jpg');
+        background-image: url('../img/patrick-hendry-37ZuGYD3JOk-unsplash.jpg');
         background-size: cover;
-        height: auto;
-        width: ;
+        position:center top;
+        min-height: auto;
+        /* padding-bottom: 12em; */
+        /* padding-top: 8em; */
+        
     }
-    
+    div.gallery {
+        margin-bottom: 2em;
+        border: 1px solid #fffff0;
+        display: flex;
+        justify-content: center;
+        width: 180px;
+        background-color: #010203;
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #fffff0;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+      }
 /* ----- END WEB ACCESSABILITY ----- */
 
 /* ----- START WORKS ----- */
 
 /* ----- END WORKS ----- */
-
-
-
-/* ----- START WEB ACCESSABILITY ----- */
-
-/* ----- END WEB ACCESSABILITY ----- */
-
-
 
 /* ----- START fOOTER ----- */
  /* footer{
@@ -828,7 +869,15 @@ h3{
     .BSTitle{
         margin-top: 1em;
     }
-
+    #webAccessiblity{
+        background-image: url('../img/patrick-hendry-37ZuGYD3JOk-unsplash.jpg');
+        background-size: cover;
+        position:center top;
+        min-height: auto;
+        padding-bottom: 12em;
+        padding-top: 8em;
+        
+    }
     .updatedDate{
         margin-left:31em;
         }
