@@ -357,13 +357,13 @@ h3{
         padding-top: 4em;
         
     }
-    div.transbox {
+    #webAccessiblity div.transbox {
         /* margin: 30px; */
         background-color: #fffff0;
         /* opacity: 0.8; */
       }
       
-    div.gallery {
+    #webAccessiblity div.gallery {
         margin-bottom: 2em;
         /* border: 1px solid #fffff0; */
         display: flex;
@@ -372,16 +372,16 @@ h3{
         background-color: #010203;
       }
       
-      div.gallery:hover {
+    #webAccessiblity div.gallery:hover {
         border: 1px solid #fffff0;
       }
       
-      div.gallery img {
+    #webAccessiblity div.gallery img {
         width: 100%;
         height: auto;
       }
 
-      div.desc {
+    #webAccessiblity div.desc {
         padding: 15px;
         text-align: center;
       }
@@ -398,7 +398,10 @@ h3{
 /* ----- END WEB ACCESSABILITY ----- */
 
 /* ----- START WORKS ----- */
-
+      #workXp a {
+          display: flex;
+          justify-content: center;
+      }
 /* ----- END WORKS ----- */
 
 /* ----- START fOOTER ----- */
