@@ -390,11 +390,11 @@ h3{
         box-sizing: border-box;
       }
       
-      .responsive {
+      /* .responsive {
         padding: 0 6px;
         float: left;
         width: 24.99999%;
-      }
+      } */
 /* ----- END WEB ACCESSABILITY ----- */
 
 /* ----- START WORKS ----- */
@@ -433,7 +433,7 @@ h3{
     text-align: center;
     opacity: 0;
     color: #fff;
-    background: rgba(0, 72, 0, 0.9);
+    background: #010203;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s;
@@ -464,13 +464,16 @@ h3{
   }
   
   .portfolio-box:hover .portfolio-box-caption {
-    opacity: 1;
+    opacity: .8;
+    
   }
   
   .portfolio-box:focus {
     outline: none;
   }
-  
+  #portfolio{
+      background-color:#010203;
+  }
 /* ----- END EXAMPLES OF WORK ----- */
 
 /* ----- START fOOTER ----- */
@@ -536,8 +539,8 @@ h3{
 
 /* ----- START MEDIA QUERIES ----- */
 @media(min-width: 280px){
-    .aboutMeImage{
-       
+    .{
+       margin-left:3em;
     }
     .aboutMeContainer{
         /* margin-bottom: 1em; */
@@ -554,10 +557,12 @@ h3{
 @media(min-width:320px){
     .aboutMeImage{
         margin-right:2em;
+
         float: right;
         display: flex;
         justify-content: center;
     }
+    
     .aboutMeContainer{
         margin-bottom: 1em;
     }
@@ -589,7 +594,8 @@ h3{
         position: fixed;
     }
     .aboutMeImage{
-        margin-left: 3.5em;
+        margin-left:3.5em;
+        float:left;
     }
     .jobTitles{
         margin-top: 0em;
@@ -600,8 +606,7 @@ h3{
     }
 /* ----- START EXAMPLES OF WORK ----- */
 
-/* ----- END EXAMPLES OF WORK ----- */
-
+/* ----- END EXAMPLES OF WORK ----- */  
     .social-media{
       display: flex;
       justify-content: center;
@@ -784,7 +789,9 @@ h3{
     }
     .aboutMeImage{
     height: 90%;
-    width: 90%;
+    width: 100%;
+    margin-left:0em;
+    /* float:left; */
    
     }
       /* ----- START WHY HIRE ME ----- */
@@ -819,26 +826,28 @@ h3{
         height: fit-content;
 
     }
-        .myNameHeader{
+    .myNameHeader{
         margin-left: 4em;
     }
          /* ----- END JUMBOTRON ----- */
         /* ----- START ABOUT ME ----- */
     .aboutMeContainer{
-        height: inherit;
+        /* height: inherit; */
         margin-top: 9em; 
         padding-bottom: 3em;
     }
+
     .aboutMeHeader{
-        margin-top: 5em;
+        /* margin-top: 2em; */
     }
     /* .aboutMeText{
         line-height: 200%;
     } */
     .aboutMeImage{
-        height: 90%;
+        height: 75%;
         width: 90%;
-        margin-left: 2em;
+        margin-left: 3em;
+        margin-top: 4em;
     }
   /* ----- START WHY HIRE ME ----- */
   .whyHireMeContainer{
@@ -907,17 +916,17 @@ h3{
         /* margin-top: 5em; */
     }
     .aboutMeHeader{
-        /* margin-top: 6em; */
+        margin-top: 1em;
         margin-left: 3em;
     }
     .aboutMeText{
         margin-left: 3em;
     }
     .aboutMeImage{
-        height: inherit;
-        width: inherit;
-        /* margin-left: 3em; */
-        /* margin-bottom: 2em; */
+        height: 75%;
+        width: 80%;
+        margin-left: 3em;
+        margin-bottom: 2em;
     }
   /* ----- START WHY HIRE ME ----- */
     .whyHireMeContainer{
