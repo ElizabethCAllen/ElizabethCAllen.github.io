@@ -474,6 +474,9 @@ h3{
   #portfolio{
       background-color:#010203;
   }
+  #digitalArt .row{
+      justify-content: center;
+  }
 /* ----- END EXAMPLES OF WORK ----- */
 
 /* ----- START fOOTER ----- */
@@ -950,6 +953,11 @@ h3{
 /*  ----- END TECHNICAL LANGUAGES AND SKILLS  ----- */
 
 /* ----- START EXAMPLES OF WORK ----- */
+.workXPHeader{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-decoration: underline;
+}
 
 /* ----- END EXAMPLES OF WORK ----- */
 /* ----- START FOOTER -----  */
